@@ -11,30 +11,31 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Vanderbilt University, 2023
+* M.S. in Computer Science, Georgia Institute of Technology, 2025
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* August 2023 - Current: Software Engineer
+  * Capital One
+  * Two year rotational program
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2022: Software Engineer Intern
+  * Capital One
+  * Designed and implemented an internal REST API template using AWS Lambda, SWS, DynamoDB, and HashiCorp Vault
+  * Built a CI/CD pipeline with AWS CloudFormation
+
+* August 2020 - December 2022: Research Assistant
+  * Biomedical Data Representation and Learning Lab
+  * Supervisor: Professor Huo
+  * Designed a novel object detection and segmentation algorithm for medical imaging that surpasses state-of-the-art methods by 10% resulting in two first-author papers
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages: Python, C / C++
+* ML Tools: PyTorch, TensorFlow, NumPy
+* Databases: MongoDB, DynamoDB
+* Other tools: Git, Linux, Docker, AWS, Agile
 
 Publications
 ======
@@ -48,12 +49,8 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* January 2020 - June 2023: Volunteeer
+  * Vanderbilt Volunteer for Science
+  * Volunteered to teach weekly hands-on science lessons to 5-8th grade students

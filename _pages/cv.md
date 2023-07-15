@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -54,3 +54,9 @@ Service and leadership
 * January 2020 - June 2023: Volunteeer
   * Vanderbilt Volunteer for Science
   * Volunteered to teach weekly hands-on science lessons to 5-8th grade students
+
+Awards
+======
+* Lera Stevens Scholarship (Full-tuition scholarship to Vanderbilt University) - $280,0000
+* The SyBBURE Undergraduate Research Program (Funding for 4 years of research) - $50,000
+* Goldwater Scholarship - $7,500

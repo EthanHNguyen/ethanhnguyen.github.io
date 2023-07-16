@@ -10,11 +10,18 @@ redirect_from:
 
 Hi! I'm Ethan, an aspiring machine learning engineer and entrepreneur. Currently, I am working at Capital One in their two-year rotational program (their Technology Development Program) and simutaneously studying for a Master's in Computer Science at Georgia Tech. 
 
-## History
+## Brief History
 In June 2023, I graduated from Vanderbilt University summa cum laude with a B.S. in Computer Science. While I was there, I published two first-author machine learning papers, presented at a Medical AI conference in Singapore, and built a couple of full-stack web apps.
 
+## Skills
+* Languages: Python, C / C++
+* ML Tools: PyTorch, TensorFlow, NumPy, OpenCV, Matplotlib
+* Databases: MongoDB, DynamoDB
+* Web Development: React, Node.js, Express, HTML, CSS
+* Other tools: Git, Linux, Docker, AWS, Agile
+
 ## Future
-I continue to focus on learning new things everyday whether through the rotational program, master's, or on Twitter. Subjects of particular interest are machine learning, finance, and business, and how we can use this knowledge to solve everyday problems at scale. I am optimistic that we can improve the lives of our communities through technology and business. 
+I love learning new things everyday whether it is in my job, in class, reading papers, or browsing Twitter. I am optimistic that we can improve our communities through technology and business. 
 
 ## Contact Me
-Feel free to message me on Twitter or email me at ethan.h.nguyen@vanderbilt.edu. I love chatting with people. :D
+Feel free to email me at ethanhuunguyen [at] gmail.com. I'm open to all opportunities, ideas, and questions.

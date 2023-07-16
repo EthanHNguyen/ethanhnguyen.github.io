@@ -1,10 +1,10 @@
 ---
 layout: archive
 title: "Resume"
-permalink: /cv/
+permalink: /resume/
 author_profile: true
 redirect_from:
-  - /resume
+  - /cv
 ---
 
 {% include base_path %}
@@ -35,6 +35,7 @@ Skills
 * Languages: Python, C / C++
 * ML Tools: PyTorch, TensorFlow, NumPy
 * Databases: MongoDB, DynamoDB
+* Web Development: React, Node.js, Express, HTML, CSS
 * Other tools: Git, Linux, Docker, AWS, Agile
 
 Publications

@@ -195,6 +195,7 @@ defaults:
       comments: true
       share: true
       related: true
+      date: false
       excerpt: false
   # _pages
   - scope:

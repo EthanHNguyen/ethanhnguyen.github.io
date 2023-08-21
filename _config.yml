@@ -195,8 +195,7 @@ defaults:
       comments: true
       share: true
       related: true
-      header:
-        teaser: false
+      excerpt: false
   # _pages
   - scope:
       path: ""

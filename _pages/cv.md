@@ -33,9 +33,9 @@ Work experience
 Skills
 ======
 * Languages: Python, C / C++
-* ML Tools: PyTorch, TensorFlow, NumPy
+* ML Tools: PyTorch, TensorFlow, NumPy, LangChain
 * Databases: MongoDB, DynamoDB
-* Web Development: React, Node.js, Express, HTML, CSS
+* Web Development: React, Node.js, Express, HTML, CSS, Streamlit
 * Other tools: Git, Linux, Docker, AWS, Agile
 
 Publications

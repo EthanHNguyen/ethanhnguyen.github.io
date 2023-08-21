@@ -3,6 +3,8 @@ title: 'Vector Databases'
 date: 2023-08-20
 permalink: /posts/2023/08/vector-databsase/
 tags:
+header:
+    teaser: false
 ---
 
 ### What are Vector Databases?

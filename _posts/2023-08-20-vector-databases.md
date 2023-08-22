@@ -18,7 +18,7 @@ Large language models (LLMs) are a type of generative AI that generates text. LL
 1. LLMs are trained on a lot of data, and compress that vast training data into their limited memory. They lose some information in this compression. 
 2. LLMs do not have access to proprietary information. LLMs are only trained a publicly available data.
 
-To fix these two issues, one popular approach has been to feed information the LLM needs into its context [1]. LLMs have “good” reasoning ability [2], and will use this context to craft a more helpful and specefic response. 
+To fix these two issues, one popular approach has been to feed information the LLM needs into its context [1]. LLMs have “good” reasoning ability [2], and will use this context to craft a more helpful and specefic response. Vector databases are used to store this context information.
 
 ### How can they be used in business to automate process X?
 

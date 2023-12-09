@@ -1,5 +1,5 @@
 ---
-title: 'What I learned Working with a Lead Software Engineer'
+title: 'What I learned working with a Lead Software Engineer'
 date: 2023-12-08
 permalink: /posts/2023/12/08/what-i-learned/
 tags:

@@ -16,26 +16,23 @@ Education
 
 Work experience
 ======
-* August 2023 - Current: Software Engineer
-  * Capital One
-  * Two year rotational program
+* August 2023 - Current: Software Engineer @ Capital One
+  * 18-month rotational program
 
-* Summer 2022: Software Engineer Intern
-  * Capital One
-  * Designed and implemented an internal REST API template using AWS Lambda, SWS, DynamoDB, and HashiCorp Vault
-  * Built a CI/CD pipeline with AWS CloudFormation
+* Summer 2022: Software Engineer Intern @ Capital One
+  * Designed and implemented an internal REST API using AWS Lambda, SQS, DynamoDB, and API Gateway
+  * Built a CI/CD pipeline with Jenkins and AWS CloudFormation
 
-* August 2020 - December 2022: Research Assistant
-  * Biomedical Data Representation and Learning Lab
-  * Supervisor: Professor Huo
+* August 2020 - December 2022: Research Assistant @ Vanderbilt University - Biomedical Data Representation and Learning Lab
+  * Supervisor: Dr. Yuankai Huo
   * Designed a novel object detection and segmentation algorithm for medical imaging that surpasses state-of-the-art methods by 10% resulting in two first-author papers
   
 Skills
 ======
-* Languages: Python, C / C++
-* ML Tools: PyTorch, TensorFlow, NumPy, LangChain
+* Languages: Python, C / C++, Java
+* Web Development: React, Vue, Node.js, Express, HTML, CSS, JavaScript
 * Databases: MongoDB, DynamoDB
-* Web Development: React, Node.js, Express, HTML, CSS, Streamlit
+* ML Tools: PyTorch, TensorFlow, NumPy, LangChain
 * Other tools: Git, Linux, Docker, AWS, Agile
 
 Publications

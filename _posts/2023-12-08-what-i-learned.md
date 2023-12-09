@@ -14,4 +14,4 @@ Today, I worked with a Lead Software Engineer. I estimate that his guidance help
 2. **Comprehensive Understanding:** Think deeply about the system and consider every interaction within the code. Try to save time and effort by addressing potential bugs before they manifest.
 3. **Collaborate and Continuous Refinement:** Upon completion of work, view the code of other software engineers and see what you can improve. Further, seek to teach others and you will understand your own systems better.
 
-Working with more experienced engineers has helped me learn new things that I cannot learn from reading a textbook or taking a class. These principles likely have come from experience and trial & error. I am appreciative of being able to learn directly from them without the tribulation. 
+Working with more experienced engineers has helped me learn new things that I cannot learn from reading a textbook or taking a class. These principles likely have come from experience and trial & error. I am appreciative of being able to save some effort and learn directly from these more senior engineers. 

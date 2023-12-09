@@ -11,7 +11,7 @@ redirect_from:
 Hi! I'm Ethan. I love solving hard problems and building software. Currently, I am working at Capital One in their 18-month rotational program as a Software Engineer and studying for a Master's in Computer Science at Georgia Tech. 
 
 ## Brief History
-In June 2023, I graduated from Vanderbilt University summa cum laude a B.S. in Computer Science. During my undergraduate studies, I worked extensively as a student researcher, publishing two first-author papers in machine learning and presenting at conferences. I also interned at Capital One as a Software Engineer. 
+In June 2023, I graduated from Vanderbilt University summa cum laude with a B.S. in Computer Science. During my undergraduate studies, I worked extensively as a student researcher, publishing two first-author papers in machine learning and presenting at conferences. I also interned at Capital One as a Software Engineer. 
 
 ## Skills
 * Languages: Python, C / C++, Java (Learning)

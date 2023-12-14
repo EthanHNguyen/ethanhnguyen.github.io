@@ -1,4 +1,4 @@
-My personal website: [ethanhn.com](www.ethanhn.com)
+My personal website: [ethanhn.com](https://www.ethanhn.com)
 
 I'm lazy (or you can say efficent), so I forked (then detached) this template from [Academic Pages](https://github.com/academicpages/academicpages.github.io). Highly recommended for academics!
 ## Note to Self - To run locally 

@@ -48,13 +48,13 @@ There are two types of card networks:
     - "Free" ATM networks - MoneyPass and Allpoint. Only charges the issuing bank. No cost directly charged to customer.
 
 Flow of Payments within the Payment Ecosystem
-| | Merchant | Acquiring Bank | Card Network | Issuing Bank | Customer
-| --- | :---: | :---: | :---: | :---: | :---:
-| Payment | + |||| - 
-| Acquirer Fee | - | + 
-| Network Assessment Fee | - || + 
-| Interchange | - ||| +  
-| Rewards |||| - | +  
+|                           | Merchant  | Acquiring Bank    | Card Network  | Issuing Bank  | Customer  |
+| ---                       | :---:     | :---:             | :---:         | :---:         | :---:     |
+| Payment                   | +         |                   |               |               | -         |
+| Acquirer Fee              | -         | +                 |               |               |           |
+| Network Assessment Fee    | -         |                   | +             |               |           | 
+| Interchange               | -         |                   |               | +             |           | 
+| Rewards                   |           |                   |               | -             | +         |
 
 Note: "Rewards" was added by me. What I find fascinating about this diagram is that every player in the ecosystem is incentivized to participate (i.e. every player has a "+"). I wonder - what are the costs of such a payment ecosystem?
 

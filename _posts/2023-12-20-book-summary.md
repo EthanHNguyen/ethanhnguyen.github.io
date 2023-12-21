@@ -31,14 +31,17 @@ Definition of Key Players:
     - Some Issuer's have built this in-house or may rely on a third-party.
     - Note: Capital One has partnered with TSYS to help process their credit cards. 
 * Issuer - an Issuer or Issuing Bank’s purpose is to underwrite the user by granting them access to a bank account and potentially access to credit facilities. Ex: JPMorgan Chase, Capital One, Citi, and Wells Fargo.
+
 The issuer will then decide to whether to approve or deny the transaction. If approved, the issuer will place a hold on the funds. Later, at the end of the day, clearing happens and money is moved between customer and merchant. The Merchant will confirm transactions and also include tips, transaction reversals, and refunds. 
 
 ## Payment Ecosystem
 There are two types of card networks:
 * Open Networks (Visa, Mastercard) - There are multiple Merchant Acquirers and Issuers. Card network makes money through fees. 
     - Pros: Good for distribution. Get brand into as many consumers and merchants as possible.
-    - Cons: Complex
-* Closed Networks (American Express, Discover) - Take their own interchange, Acquirer, and Network Assesment fees. Can adjust fee based on Merchant size. Revenue per swipe is higher. However, total swipe volume is lower since they don’t have tthe network. Visa accounts for ~50% of all purchase volume. American Express accounts for 13% and Discover for 2%.
+    - Cons: Complex to coordinate players. 
+* Closed Networks (American Express, Discover) - Take their own interchange, Acquirer, and Network Assesment fees. Can adjust fee based on Merchant size. Visa accounts for ~50% of all purchase volume. American Express accounts for 13% and Discover for 2%.
+    - Pros: Revenue per swipe is higher.
+    - Cons: Total swipe volume is lower since the network is not as large.
 
 - For debit cards, each Card Network has a secondary network brand for Pin Debit or Automated Teller Machine (ATM).
     - PIN Debit Network. Visa - Interlink, Visa-Net Debit. Mastercard - Maestro. Discover - Pulse
@@ -147,11 +150,11 @@ Other solutions for merchants to lower interchange fees:
     - Direct Deposit - type of ACH transfer that typically comes from an employer into an employee’s bank account. Employers would give Fed NACHA file to transfer the funds. This NACHA file is often sent earlier but funds are only moved on effective date. However, some banks are willing to loan money for 2 days once they see the NACHA file from the employer.
     - NACHA is pushing for faster payments by offering Same-Day ACH
 - Peer-to-Peer and ACH
-    - Venmo - Debits the sender but needs to float funds for a couple days.
+    - Venmo - Venmo, using Plaid, can see the state of the bank account. Venmo can safely float the funds for a couple days as it waits for ACH However, to the sendee, the funds are sent immediately.
     - Zelle - Groups of banks share a ledger. Money moves quickly and does not wait for “settlement”.
 - Wire Transfer
     - Way to move money (usually large dollar amounts) from one bank to another securely and quickly by using account and routing numbers of the sending and recieving banks.
-    - In the US, the Federal reserve provides Fedwire which is the primary way to wire funds between banks. This is the supported by almost every bank. The Clearing House also provides a wire service called Clearing House Interbank Payments System (CHIPS).
+    - In the US, the Federal Reserve provides Fedwire which is the primary way to wire funds between banks. This is the supported by almost every bank. The Clearing House also provides a wire service called Clearing House Interbank Payments System (CHIPS).
     - Movement of money is instant. However, humans need to confirm that money has moved.
 - Real-time Payments
     - Wire transfers are used for large transfer, but can also be applied to smaller payments. Main barrier is that cost of wire is high because humans need to confirm money movement.

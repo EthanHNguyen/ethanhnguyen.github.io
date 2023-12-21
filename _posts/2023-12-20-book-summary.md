@@ -48,6 +48,7 @@ There are two types of card networks:
     - "Free" ATM networks - MoneyPass and Allpoint. Only charges the issuing bank. No cost directly charged to customer.
 
 Flow of Payments within the Payment Ecosystem
+
 |                           | Merchant  | Acquiring Bank    | Card Network  | Issuing Bank  | Customer  |
 | ---                       | :---:     | :---:             | :---:         | :---:         | :---:     |
 | Payment                   | +         |                   |               |               | -         |

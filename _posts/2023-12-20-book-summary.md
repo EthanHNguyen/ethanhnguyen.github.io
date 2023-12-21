@@ -129,14 +129,14 @@ To help fight fraud and reduce the number of chargebacks, there are a number of 
 
 ## Interchange
 
-- Durbin Amendment - Banks with assets greater than \$10 billion are regulated for Interchange fees. Regulated Issuers get \$0.21 + 0.05% of the transaction amount + \$0.01 for fraud
-- Merchants who clear faster qualify for lower Interchange rates
+- Durbin Amendment - Banks with assets greater than \$10 billion are regulated for Interchange fees. Regulated Issuers get \$0.21 + 0.05% of the transaction amount + \$0.01 for fraud.
+- Merchants who clear faster qualify for lower Interchange rates.
 - Track 3 data - Some merchants provide receipt level details (Track 3 Data) to card networks. When this data is provided, lower interchange is charged.
 
 Other solutions for merchants to lower interchange fees:
-- Private label cards - Some merchant offer their own cards to use at the store. these cards only work at the store that issued the card. Benefits include direct access to costumer spending data, reserves spot in customer wallet, no interchange paid to issuer, little or no fees paid to acquirer, brand loyalty
+
+- Private label cards - Some merchants offer their own cards to use at the store. These cards only work at the store that issued the card. Benefits include direct access to customer spending data, reserves spot in customer wallet, no interchange paid to issuer, little or no fees paid to acquirer, brand loyalty.
 - Co-Brand Cards - Brand partners with an issuing bank and card network. For example, Amazon partnered with Chase and Visa to create an Amazon credit card. Since Amazon arranges this deal, they will typically get lower network assessment fees with the network and lower interchange with the issuing bank. The brand and issuing bank can also earn interchange on transactions outside of brand.
-    - Note: My team 
 
 ## Moving Money without Card Networks
 

@@ -32,7 +32,7 @@ Definition of Key Players:
     - Note: Capital One has partnered with TSYS to help process their credit cards. 
 * Issuer - an Issuer or Issuing Bank’s purpose is to underwrite the user by granting them access to a bank account and potentially access to credit facilities. Ex: JPMorgan Chase, Capital One, Citi, and Wells Fargo.
 
-The issuer will then decide to whether to approve or deny the transaction. If approved, the issuer will place a hold on the funds. Later, at the end of the day, clearing happens and money is moved between customer and merchant. The Merchant will confirm transactions and also include tips, transaction reversals, and refunds. 
+The issuer will then decide to whether to approve or deny the transaction. If approved, the issuer will place a hold on the funds. Later, at the end of the day, Merchant will confirm transactions and include tips, transaction reversals, and refunds. Finally, money is moved between customer and merchant (clearing).
 
 ## Payment Ecosystem
 There are two types of card networks:

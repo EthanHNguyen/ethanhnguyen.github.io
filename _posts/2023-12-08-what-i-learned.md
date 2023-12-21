@@ -1,5 +1,5 @@
 ---
-title: 'What I learned working with a Lead Software Engineer'
+title: 'What I learned working with a more experienced Software Engineer'
 date: 2023-12-08
 permalink: /posts/2023/12/08/what-i-learned/
 tags:
@@ -7,7 +7,7 @@ header:
     teaser: false
 ---
 
-Today, I worked with a Lead Software Engineer. I estimate that his guidance helped 2X my productivity. Here are four principles I noticed while working with him:
+Today, I worked with a Software Engineer who has over 10 years of experience. Here are four principles I noticed while working with him that has helped me be more effective:
 
 1. **Take your Time**: Rushing through a task will only lead to more debugging later. Plan and do it right the first time. This will help you build confidence in your codebase. If needed, communicate to your manager that you need more time to complete the task.   
 1. **Thoroughness is key:** Follow each step diligently and ensure correctness at every stage in development. This includes syntax, understanding system changes, and confirming successful implementation.

@@ -129,7 +129,7 @@ To help fight fraud and reduce the number of chargebacks, there are a number of 
 
 ## Interchange
 
-- Durbin Amendment - Banks with assets greater than \$10 billion are regulated for Interchange fees. Regulated Issuers get $0.21 + 0.05% of the transaction amount + $0.01 for fraud
+- Durbin Amendment - Banks with assets greater than \$10 billion are regulated for Interchange fees. Regulated Issuers get \$0.21 + 0.05% of the transaction amount + \$0.01 for fraud
 - Merchants who clear faster qualify for lower Interchange rates
 - Track 3 data - Some merchants provide receipt level details (Track 3 Data) to card networks. When this data is provided, lower interchange is charged.
 

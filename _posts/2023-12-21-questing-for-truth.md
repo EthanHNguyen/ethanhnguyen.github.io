@@ -1,5 +1,5 @@
 ---
-title: 'Unraveling the Quest for Truth: A Personal Exploration'
+title: 'What is truth? How do you seek truth?'
 date: 2023-12-21
 permalink: /posts/2023/12/21/questing-for-truth/
 tags:

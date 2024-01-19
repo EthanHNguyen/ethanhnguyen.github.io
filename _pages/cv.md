@@ -12,12 +12,12 @@ redirect_from:
 Education
 ======
 * B.S. in Computer Science, Vanderbilt University, 2023
-* M.S. in Computer Science, Georgia Institute of Technology, 2025
+* M.S. in Computer Science, Georgia Institute of Technology, Fall 2024
 
 Work experience
 ======
-* August 2023 - Current: Software Engineer @ Capital One
-  * 18-month rotational program
+<!-- * August 2023 - Current: Software Engineer @ Capital One
+  * 18-month rotational program -->
 
 * Summer 2022: Software Engineer Intern @ Capital One
   * Designed and implemented an internal REST API using AWS Lambda, SQS, DynamoDB, and API Gateway

@@ -11,29 +11,35 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Vanderbilt University, 2023
-* M.S. in Computer Science, Georgia Institute of Technology, Fall 2024
+* B.S. in Computer Science, Vanderbilt University
+* M.S. in Computer Science, Georgia Institute of Technology. Specialization: Machine Learning
 
 Work experience
 ======
 <!-- * August 2023 - Current: Software Engineer @ Capital One
   * 18-month rotational program -->
 
+  * August 2023 - Current: Software Engineer Intern @ Capital One
+    * Built a distributed orchestration system to decide 2+ million credit card applications per month using Go & AWS (DynamoDB, State Machine, Lambda, Fargate, EC2).
+    * Successfully led the migration of three high-transaction microservices, averaging 2 million transactions per month, from AWS ECS EC2 to Fargate. This strategic move eliminated the need to manage the underlying operating system, resulting in annual savings of $20,000 and a significant reduction of 800 engineering hours.
+    * Led development of automated end-to-end testing suite, resulting in annual savings of 2,400 engineering hours.
+
 * Summer 2022: Software Engineer Intern @ Capital One
   * Designed and implemented an internal REST API using AWS Lambda, SQS, DynamoDB, and API Gateway
   * Built a CI/CD pipeline with Jenkins and AWS CloudFormation
 
-* August 2020 - December 2022: Research Assistant @ Vanderbilt University - Biomedical Data Representation and Learning Lab
-  * Supervisor: Dr. Yuankai Huo
-  * Designed a novel object detection and segmentation algorithm for medical imaging that surpasses state-of-the-art methods by 10% resulting in two first-author papers
+* August 2020 - December 2022: Research Assistant @ Biomedical Data Representation and Learning Lab
+  * Invented novel machine learning algorithms for biomedical image analysis resulting in 2 first-author publications.
+  * Trained >500 models across >20 deep learning algorithms using Python, PyTorch, Linux, and Docker.
+
   
 Skills
 ======
-* Languages: Python, C / C++, Java
+* Languages: Python, Golang, C / C++, Java, LISP
+* ML Tools: PyTorch, TensorFlow, NumPy, LangChain
 * Web Development: React, Vue, Node.js, Express, HTML, CSS, JavaScript
 * Databases: MongoDB, DynamoDB
-* ML Tools: PyTorch, TensorFlow, NumPy, LangChain
-* Other tools: Git, Linux, Docker, AWS, Agile
+* Other tools: Git, Linux, Docker, Kubernetes, AWS, Agile
 
 Publications
 ======
@@ -47,8 +53,10 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service and Leadership
 ======
+* December 2023 - Current: Volunteer @ Capital One - Learning & Development Committee
+  * Organize monthly workshops for ~2,000 software engineers.
 * January 2020 - June 2023: Volunteeer
   * Vanderbilt Volunteer for Science
   * Volunteered to teach weekly hands-on science lessons to 5-8th grade students
@@ -56,5 +64,9 @@ Service and leadership
 Awards
 ======
 * Lera Stevens Scholarship (Full-tuition scholarship to Vanderbilt University) - $280,0000
-* The SyBBURE Undergraduate Research Program (Funding for 4 years of research) - $50,000
 * Goldwater Scholarship - $7,500
+
+
+Certifications
+======
+* AWS Certified Solutions Architect - Associate

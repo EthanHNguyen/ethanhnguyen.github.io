@@ -21,17 +21,9 @@ Why do I use the term “seek” truth? I think it’s very hard to actually obt
 
 These are my opinions on truth-seeking, closely aligning with critical thinking principles. Remaining open-minded and embracing new perspectives is crucial, recognizing that different approaches suit different contexts. I have to admit that these questions are complex and I’ve only begun to scratch the surface. 
 
-Let’s delve deeper into the fascinating journey of seeking truth together. How do you determine good approaches to truth-seeking? What is truth?
+How do you determine good approaches to truth-seeking? What is truth?
 
-P.S. Ironically, I ran this essay through OpenAI’s ChatGPT 3.5, incorporating its excellent critiques:
-
-- the limitations of my own perspective and bias.
-- the importance of different perspectives to approaching truth and the various contexts in which truth seeking occurs.
-- the limitations of empirical evidence and the scientific method.
-- the importance of personal experience and intuition.
-- the tone and style of the essay.
-
-If you are interested in the pursuit of truth, I’d love to discuss it with you; feel free to email me. Also, here are some books on my reading list:
+Here are a couple books I added to my already long reading list:
 
 1. **"Meditations" by Marcus Aurelius**
 2. **"The Republic" by Plato**

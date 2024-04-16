@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Computer Science, Vanderbilt University
-* M.S. in Computer Science, Georgia Institute of Technology. Specialization: Machine Learning
+* M.S. in Computer Science, Georgia Institute of Technology. Specialization: ML.
 
 Work experience
 ======

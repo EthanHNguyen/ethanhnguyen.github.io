@@ -16,8 +16,6 @@ Education
 
 Work experience
 ======
-<!-- * August 2023 - Current: Software Engineer @ Capital One
-  * 18-month rotational program -->
 
   * August 2023 - Current: Software Engineer Intern @ Capital One
     * Built a distributed orchestration system to decide 2+ million credit card applications per month using Go & AWS (DynamoDB, State Machine, Lambda, Fargate, EC2).

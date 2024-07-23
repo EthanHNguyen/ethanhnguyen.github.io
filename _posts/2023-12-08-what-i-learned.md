@@ -1,5 +1,5 @@
 ---
-title: 'What I learned working with a more experienced Software Engineer'
+title: 'What I learned working with a Software Engineer with 10+ Years of Experience'
 date: 2023-12-08
 permalink: /posts/2023/12/08/what-i-learned/
 tags:
@@ -16,4 +16,8 @@ Today, I worked with Kien Do, a Software Engineer who has over 10 years of exper
 
 Working with more experienced engineers has helped me learn new things that I cannot learn from reading a textbook or taking a class. These principles likely have come from experience and trial & error. I am appreciative of being able to save some effort and learn directly from these more senior engineers. 
 
-Editor Note: After showing this post to Kien, he pointed that with respect to "Comprehensive Understanding", there is a balancing point between moving fast and fully understanding a system. An good engineer is able to balance these two competing priorties.
+Editor Note #1: After showing this post to Kien, he pointed that with respect to "Comprehensive Understanding", there is a balancing point between moving fast and fully understanding a system. An good engineer is able to balance these two competing priorties.
+
+Editor Note #2: 9 months later, I have read back this post and can summarize it into two sentences.
+1. Don't be a code monkey - design before you type. 
+2. Continously learn and refine your system. 

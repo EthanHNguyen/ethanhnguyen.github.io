@@ -12,7 +12,7 @@ Welcome to my blog! Thanks for stopping by. I'm Ethan Nguyen. I am a (profession
 
 Currently, I am a full-time software engineer at [Capital One](https://en.wikipedia.org/wiki/Capital_One) building a brand new system to decide credit card applications. I graduated [Vanderbilt University](https://en.wikipedia.org/wiki/Vanderbilt_University) with a Bachelor's of Science (Computer Science) in 2023, and I am continuing my education as a part-time remote student at [Georgia Tech](https://en.wikipedia.org/wiki/Georgia_Tech) to obtain a Master's of Science (Computer Science) expected to graduate in 2026. I love working on distributed systems as well as tinkering with machine learning. In college, I worked as a research assistant and [published](https://ethanhn.com/publications/) a couple papers in medical computer vision. 
 
-In my free time, I love spending time outdoors running, hiking, and cycling. 
+Outside of work, I love spending time outdoors running, hiking, and cycling. 
 
 ## Contact
 I am always looking for new opportunities to learn and grow. Feel free to email me at [my first name].h.nguyen [at] protonmail.com.

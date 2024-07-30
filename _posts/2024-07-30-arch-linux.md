@@ -4,11 +4,13 @@ date: 2024-07-30
 permalink: /posts/2024/07/30/arch-linux/
 tags:
 ---
-I have been a Apple user for the last 6 years. Here are a list of products I own:
-- MacBook Pro
-- iPad Pro
-- iPhone
-- Apple Watch
+I have been a Apple user (fanboy) for the last 8 years. Here is a slightly embarrassing list of Apple products I have owned:
+- MacBook Pro x2
+- iPad Pro x2
+- iPhone x2 
+- Watch x2
+- Airpods x3
+- Magic Keyboard x2 
 
 I've really enjoyed my experience with Apple. I love how "everything just works" and the tight integration between software and hardware within Apple's ecosystem. I can respond to text messages on any device and my photos are automatically synced to iCloud. However, I have become annoyed with how tight Apple's ecosystem has become. As my hardware stack has aged, I have realized that Apple has increasingly moved to using planned obsolescense in a scheme where it is hard (and expensive) for the user to repair instead of buying a new device (see [Louis Rossman](https://www.youtube.com/watch?v=NVAmnV65_zw). For example, my 6 year old MacBook Pro has started showing its age. On my previous laptops, I have been able to perform basic hardware maintenance (replacing thermal paste, cleaning the fans, etc) and make hardware upgrades (SSD, RAM, etc). However, with Apple, some of these tasks are now impossible. The practice of planned obsolescense is expensive and harmful to the environment. So, in the last year, I've begun looking for a different tech stack.
 

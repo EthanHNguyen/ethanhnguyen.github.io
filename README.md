@@ -1,6 +1,6 @@
 My personal website: [ethanhn.com](https://www.ethanhn.com)
 
-I'm lazy (or you can say efficent), so I forked (then detached) this template from [Academic Pages](https://github.com/academicpages/academicpages.github.io). Highly recommended for academics!
+Forked (then detached) this template from [Academic Pages](https://github.com/academicpages/academicpages.github.io). 
 ## Note to Self - To run locally 
 
 1. Clone the repository and made updates as detailed above

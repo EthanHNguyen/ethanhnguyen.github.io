@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my blog! Thanks for stopping by. I'm Ethan Nguyen. I am a (professional) software enthusiast.
+Hey! Thanks for stopping by. My name is Ethan and I am a (professional) software enthusiast with interests in open source software, operating systems, distributed systems, and machine learning. Currently, I work as software engineer at [Capital One](https://en.wikipedia.org/wiki/Capital_One) building a brand new system to decision credit card applications. 
 
-Currently, I am a full-time software engineer at [Capital One](https://en.wikipedia.org/wiki/Capital_One) building a brand new system to decide credit card applications. I graduated [Vanderbilt University](https://en.wikipedia.org/wiki/Vanderbilt_University) with a Bachelor's of Science (Computer Science) in 2023, and I am continuing my education as a part-time remote student at [Georgia Tech](https://en.wikipedia.org/wiki/Georgia_Tech) to obtain a Master's of Science (Computer Science) expected to graduate in 2026. I love working on distributed systems as well as tinkering with machine learning. In college, I worked as a research assistant and [published](https://ethanhn.com/publications/) a couple papers in medical computer vision. 
+I graduated [Vanderbilt University](https://en.wikipedia.org/wiki/Vanderbilt_University) with a Bachelor's of Science (Computer Science) in 2023, and I am continuing my education part-time at [Georgia Tech](https://en.wikipedia.org/wiki/Georgia_Tech) towards  Master's of Science (Computer Science). In college, I worked as a research assistant and [published](https://ethanhn.com/publications/) a couple papers in medical computer vision. 
 
-Outside of work, I love spending time outdoors running, hiking, and cycling. 
+Outside of work, I love spending time outdoors running, hiking, and cycling. I'm a lifelong learner, reading books and tinkering wit anything I can afford to break. 
 
 ## Contact
 I am always looking for new opportunities to learn and grow. Feel free to email me at [my first name].h.nguyen [at] protonmail.com.

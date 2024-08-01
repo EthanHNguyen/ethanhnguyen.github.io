@@ -19,5 +19,5 @@ Working with more experienced engineers has helped me learn new things that I ca
 Editor Note #1: After showing this post to Kien, he pointed that with respect to "Comprehensive Understanding", there is a balancing point between moving fast and fully understanding a system. An good engineer is able to balance these two competing priorties.
 
 Editor Note #2: 9 months later, I have read back this post and can summarize it into two sentences.
-1. Don't be a code monkey - design before you type. 
+1. Don't be a code monkey - design before you type (however, don't overdesign either). 
 2. Continously learn and refine your system. 

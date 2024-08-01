@@ -6,4 +6,8 @@ author_profile: true
 redirect_from:
   - /cv
 ---
-<embed src="https://ethanhn.com/files/resume.pdf" width="600" height="700" type='application/pdf'> 
+<object data="https://ethanhn.com/files/resume.pdf" type="application/pdf" width="100%" height="100%">
+  <p>Your web browser doesn't have a PDF plugin.
+  Instead you can <a href="https://ethanhn.com/files/resume.pdf">click here to
+  download the PDF file.</a></p>
+</object>

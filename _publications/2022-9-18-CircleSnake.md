@@ -3,7 +3,7 @@ title: "CircleSnake: Instance Segmentation with Circle Representation"
 collection: publications
 permalink: /publication/2022-9-18-CircleSnake
 excerpt: 'This paper describes a novel method for instance segmentation within medical imaging.'
-date: 2009-10-01
+date: 2022-09-18
 venue: 'IEEE Transactions on Medical Imaging'
 paperurl: 'https://arxiv.org/pdf/2211.01254.pdf'
 citation: 'Nguyen, E.H., Yang, H., Asad, Z., Deng, R., Fogo, A.B., Huo, Y. (2022). CircleSnake: Instance Segmentation with Circle Representation. In: Lian, C., Cao, X., Rekik, I., Xu, X., Cui, Z. (eds) Machine Learning in Medical Imaging. MLMI 2022. Lecture Notes in Computer Science, vol 13583. Springer, Cham. https://doi.org/10.1007/978-3-031-21014-3_31'

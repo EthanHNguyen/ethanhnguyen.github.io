@@ -3,7 +3,7 @@ title: "Circle Representation for Medical Object Detection"
 collection: publications
 permalink: /publication/2021-10-26-CircleNet
 excerpt: 'This paper describes a novel method for object detection within medical imaging.'
-date: 2009-10-01
+date: 2021-10-26
 venue: 'IEEE Transactions on Medical Imaging'
 paperurl: 'https://arxiv.org/abs/2006.02474'
 citation: 'E. H. Nguyen et al., "Circle Representation for Medical Object Detection," in IEEE Transactions on Medical Imaging, vol. 41, no. 3, pp. 746-754, March 2022, doi: 10.1109/TMI.2021.3122835.'

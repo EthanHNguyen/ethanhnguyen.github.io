@@ -1,5 +1,5 @@
 ---
-title: 'Happy Hours with a Mentor. 3 important skills'
+title: 'Happy Hours with a Mentor. 3 important skills.'
 date: 2024-10-23
 permalink: /posts/2024/10/23/happy-hours
 tags:

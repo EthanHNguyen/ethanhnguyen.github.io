@@ -1,5 +1,5 @@
 ---
-title: 'Learn what makes you happy'
+title: 'Learn what makes you happy.'
 date: 2024-10-23
 permalink: /posts/2024/10/23/happiness/
 tags:

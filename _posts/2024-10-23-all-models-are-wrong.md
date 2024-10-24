@@ -1,7 +1,7 @@
 ---
 title: 'All models are wrong'
 date: 2024-10-23
-permalink: /posts/2024/10/23/happiness/
+permalink: /posts/2024/10/23/models/
 tags:
 ---
 > All models are wrong, but some are useful. [1] 

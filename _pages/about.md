@@ -18,12 +18,11 @@ My current thesis is simple: the next generation of AI work will be won by peopl
 
 - **Frontier AI infrastructure:** model systems, deployment constraints, evaluation, and reliability.
 - **High-trust deployment:** practical engineering for environments where correctness, trust, and operational judgment matter.
-- **Builder artifacts:** public projects that turn messy domains into usable interfaces.
 - **Research-to-production:** applying a machine learning research foundation to systems people can actually use.
 
 ## Proof points
 
-Before Google, I built large-scale ML and cloud platforms at Capital One, including internal model-training infrastructure used by thousands of data scientists, machine learning engineers, and analysts. Earlier work included banking ML workflows for fraud, customer segmentation, risk, credit application systems, and high-transaction service migration to AWS Fargate.
+Before Google, I built large-scale ML and cloud platforms at Capital One, including internal model-training infrastructure used by thousands of data scientists, machine learning engineers, and analysts. Earlier work included banking ML workflows for fraud, customer segmentation, risk, credit application systems.
 
 My research background is in deep learning, computer vision, and medical image analysis. At Vanderbilt University, I developed new ML algorithms and published peer-reviewed research. That background still shapes my engineering taste: models matter, but deployment, observability, data quality, and human trust determine whether they create value.
 

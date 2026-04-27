@@ -10,7 +10,7 @@ locale: "en-US"
 title: "Ethan Nguyen"
 title_separator: "-"
 name: &name "Ethan Nguyen"
-description: &description "AI/ML engineer at Google working on Gemini, frontier AI infrastructure, edge deployment, and applied machine learning systems."
+description: &description "AI/ML engineer at Google working on Gemini, focused on frontier AI systems, production infrastructure, and high-trust deployment."
 url: https://ethanhn.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "EthanHNguyen/ethanhnguyen.github.io"
@@ -80,7 +80,7 @@ analytics:
 author:
   name: "Ethan Nguyen"
   avatar: "profile.jpg"
-  bio: "AI/ML Engineer @ Google · Scaling Gemini to the Edge"
+  bio: "AI/ML Engineer @ Google · Frontier AI Systems"
   location: "Washington D.C."
   employer: Google
   pubmed:

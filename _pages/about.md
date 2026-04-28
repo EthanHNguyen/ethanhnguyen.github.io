@@ -1,33 +1,66 @@
 ---
 permalink: /
 title: "About"
-excerpt: "About me"
+excerpt: "Frontier AI systems builder"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-# Frontier AI, engineered for the real world.
+# Frontier AI systems for high-trust deployment.
 
-I’m an AI/ML engineer at Google working on Gemini. I build on the systems layer between model capability and deployed value: evaluation, reliability, edge constraints, and production infrastructure.
+I’m an AI/ML engineer at Google working on Gemini. I build at the systems layer between model capability and deployed value: infrastructure, evaluation, reliability, interfaces, and operational trust.
 
-My current thesis is simple: the next generation of AI work will be won by people who can make frontier models useful under real constraints. Not just stronger benchmarks. Reliable systems. Clear interfaces. Trustworthy deployment paths. Fast feedback from users.
+The next generation of AI work will not be won by benchmarks alone. It will be won by people who can turn frontier models into systems that survive contact with real constraints.
 
-## Current focus
+That is the work I am orienting around.
 
-- **Frontier AI infrastructure:** model systems, deployment constraints, evaluation, and reliability.
-- **High-trust deployment:** practical engineering for environments where correctness, trust, and operational judgment matter.
-- **Research-to-production:** applying a machine learning research foundation to systems people can actually use.
+## Direction
 
-## Proof points
+I am optimizing for the overlap between **elite engineering** and **founder-grade market taste**.
 
-Before Google, I built large-scale ML and cloud platforms at Capital One, including internal model-training infrastructure used by thousands of data scientists, machine learning engineers, and analysts. Earlier work included banking ML workflows for fraud, customer segmentation, risk, credit application systems.
+That means choosing problems and environments that expose:
 
-My research background is in deep learning, computer vision, and medical image analysis. At Vanderbilt University, I developed new ML algorithms and published peer-reviewed research. That background still shapes my engineering taste: models matter, but deployment, observability, data quality, and human trust determine whether they create value.
+- hard AI systems constraints
+- fast research-to-production loops
+- real users and deployment pain
+- high-trust workflows where reliability matters
+- infrastructure gaps that could become companies
 
-## Trajectory
+The goal is not to be a generic AI engineer.
 
-I’m optimizing for the overlap between **elite engineering** and **founder-grade market taste**: high-talent-density teams, hard AI systems problems, fast research-to-production loops, and real deployment pain that can become new infrastructure.
+The goal is to become the kind of builder who can bridge model capability, deployment reality, and product judgment.
+
+## What I build
+
+My public projects test the same thesis from different angles:
+
+- **[ATO Copilot](/portfolio/ato-copilot/):** source-backed AI for government authorization workflows. It explores how AI can help humans move through compliance and review by preserving evidence, provenance, and accountability.
+- **[Bare-Metal AI Lab](/portfolio/bare-metal-ai-lab/):** local AI infrastructure for model serving, observability, and deployment experiments. It keeps me close to the operational layer below the API: GPUs, vLLM, telemetry, quantization, service replacement, and failure recovery.
+- **[RFP Map](/portfolio/rfp-map/):** a mobile-first market intelligence radar for SAM.gov opportunities. It treats public procurement data as terrain: something to explore, cluster, and reason over.
+
+The common thread is deployment reality.
+
+Models are powerful. The hard part is building systems people can actually use.
+
+## Proof base
+
+At Google, I work near frontier model systems through Gemini. Before Google, I built large-scale ML and cloud platforms at Capital One, including model-training infrastructure used by thousands of data scientists, machine learning engineers, and analysts.
+
+My research background is in deep learning, computer vision, and medical image analysis. At Vanderbilt University, I developed new ML algorithms and published peer-reviewed research.
+
+That background still shapes my engineering taste: models matter, but deployment, observability, data quality, and human trust determine whether they create value.
+
+## What I am looking for
+
+I am most interested in people, teams, and problems that compound toward one of two paths:
+
+1. **Founder-track company creation:** learning where frontier AI breaks in real workflows and where new infrastructure should exist.
+2. **Elite engineering:** working with high-talent-density teams on hard model, infrastructure, deployment, and evaluation problems.
+
+The best opportunities sit at the intersection.
+
+Hard systems. Real users. Fast loops. High standards.
 
 **Explore:** [Projects](/portfolio/) · [Publications](/publications/) · [Writing](/year-archive/) · [GitHub](https://github.com/EthanHNguyen) · [LinkedIn](https://www.linkedin.com/in/ethan-h-nguyen)

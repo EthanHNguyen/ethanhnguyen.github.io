@@ -12,8 +12,6 @@ tags:
 
 At c0mpiled-10/DC: AI for Government, I built ATO Copilot in a four-hour hackathon and won 1st place.
 
-The c0mpiled recap described the project as “TurboTax for government security approvals.” That is a useful shorthand. The deeper thesis is that authorization work needs better evidence infrastructure.
-
 The prototype explored a narrow question:
 
 > Can AI help government teams move through authorization and compliance workflows by grounding every recommendation in source evidence?

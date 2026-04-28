@@ -18,17 +18,15 @@ That is the work I am orienting around.
 
 ## Direction
 
-I am optimizing for the overlap between **elite engineering** and **founder-grade market taste**.
+I am drawn to work where technical depth and product judgment compound.
 
-That means choosing problems and environments that expose:
+That means building systems with:
 
 - hard AI systems constraints
 - fast research-to-production loops
 - real users and deployment pain
 - high-trust workflows where reliability matters
-- infrastructure gaps that could become companies
-
-The goal is not to be a generic AI engineer.
+- clear consequences when the technology fails
 
 The goal is to become the kind of builder who can bridge model capability, deployment reality, and product judgment.
 

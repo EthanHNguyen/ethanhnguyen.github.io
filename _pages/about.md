@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-# Frontier AI systems for high-trust deployment.
+# Frontier AI systems for high-trust operations.
 
-I’m an AI/ML engineer at Google working on Gemini. I build at the systems layer between model capability and deployed value: infrastructure, evaluation, reliability, interfaces, and operational trust.
+I’m an AI/ML engineer at Google Public Sector working on the systems that translate frontier AI capability into trusted operational value.
+
+That means infrastructure, evaluation, reliability, interfaces, and trust layers for high-stakes environments.
 
 The next generation of AI work will not be won by benchmarks alone. It will be won by people who can turn frontier models into systems that survive contact with real constraints.
 
@@ -38,13 +40,13 @@ My public projects test the same thesis from different angles:
 - **[Bare-Metal AI Lab](/portfolio/bare-metal-ai-lab/):** local AI infrastructure for model serving, observability, and deployment experiments. It keeps me close to the operational layer below the API: GPUs, vLLM, telemetry, quantization, service replacement, and failure recovery.
 - **[RFP Map](/portfolio/rfp-map/):** a mobile-first market intelligence radar for SAM.gov opportunities. It treats public procurement data as terrain: something to explore, cluster, and reason over.
 
-The common thread is deployment reality.
+The common thread is operational translation.
 
-Models are powerful. The hard part is building systems people can actually use.
+Models are powerful. The hard part is turning capability into systems people can actually use, evaluate, and trust.
 
 ## Proof base
 
-At Google, I work near frontier model systems through Gemini. Before Google, I built large-scale ML and cloud platforms at Capital One, including model-training infrastructure used by thousands of data scientists, machine learning engineers, and analysts.
+At Google Public Sector, I work on frontier AI systems for high-trust environments. Before Google, I built large-scale ML and cloud platforms at Capital One, including model-training infrastructure used by thousands of data scientists, machine learning engineers, and analysts.
 
 My research background is in deep learning, computer vision, and medical image analysis. At Vanderbilt University, I developed new ML algorithms and published peer-reviewed research.
 

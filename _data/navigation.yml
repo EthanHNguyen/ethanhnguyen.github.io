@@ -1,15 +1,12 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-
   - title: "Projects"
     url: /portfolio/
-
-  - title: "Talks"
-    url: /talks/
 
   - title: "Writing"
     url: /year-archive/
 
-  # Resume intentionally hidden while updated version is under pre-publication review.
+  - title: "Publications"
+    url: /publications/
+
+  # Talks and resume intentionally hidden from primary navigation while the public brand is focused on current builder artifacts.

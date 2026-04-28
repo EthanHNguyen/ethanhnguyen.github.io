@@ -1,0 +1,439 @@
+/* ==========================================================================
+   Ethan Nguyen professional brand system
+   ========================================================================== */
+
+:root {
+  color-scheme: dark;
+  --brand-bg: #08090a;
+  --brand-panel: #0f1115;
+  --brand-panel-2: #151821;
+  --brand-surface: rgba(255, 255, 255, 0.035);
+  --brand-surface-strong: rgba(255, 255, 255, 0.06);
+  --brand-border: rgba(255, 255, 255, 0.09);
+  --brand-border-soft: rgba(255, 255, 255, 0.055);
+  --brand-text: #f7f8f8;
+  --brand-text-soft: #d0d6e0;
+  --brand-text-muted: #8a8f98;
+  --brand-accent: #5e6ad2;
+  --brand-accent-2: #007a33;
+  --brand-link: #9ba7ff;
+  --brand-glow: rgba(94, 106, 210, 0.24);
+}
+
+html {
+  background: var(--brand-bg);
+}
+
+body {
+  background:
+    radial-gradient(circle at 18% -10%, rgba(94, 106, 210, 0.22), transparent 34rem),
+    radial-gradient(circle at 82% 5%, rgba(0, 122, 51, 0.16), transparent 28rem),
+    linear-gradient(180deg, #08090a 0%, #0b0d12 44%, #08090a 100%);
+  color: var(--brand-text-soft);
+  font-family: Inter, $global-font-family;
+  font-feature-settings: "cv01", "ss03";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), transparent 72%);
+}
+
+h1, h2, h3, h4, h5, h6,
+.masthead,
+.greedy-nav,
+.author__name,
+.archive__item-title {
+  font-family: Inter, $header-font-family;
+  font-feature-settings: "cv01", "ss03";
+}
+
+h1, .page__title {
+  color: var(--brand-text);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+h2, h3, h4 {
+  color: var(--brand-text);
+  font-weight: 560;
+  letter-spacing: -0.022em;
+}
+
+a {
+  color: var(--brand-link);
+  transition: color 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+a:hover {
+  color: #c3c9ff;
+}
+
+hr {
+  border-top-color: var(--brand-border-soft);
+}
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid var(--brand-border-soft);
+  background: rgba(8, 9, 10, 0.78);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.82rem;
+  padding-bottom: 0.82rem;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a,
+.greedy-nav .visible-links a {
+  color: var(--brand-text-soft);
+  font-size: 0.82rem;
+  font-weight: 520;
+  letter-spacing: -0.01em;
+}
+
+.greedy-nav button {
+  height: calc(100% - 0.6rem);
+  top: 0.3rem;
+  right: 0;
+  border: 1px solid var(--brand-border) !important;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.035) !important;
+  color: var(--brand-text-soft);
+}
+
+.greedy-nav .navicon,
+.greedy-nav .navicon::before,
+.greedy-nav .navicon::after {
+  background: var(--brand-text-soft);
+}
+
+.greedy-nav .visible-links a::before {
+  height: 2px;
+  background: linear-gradient(90deg, var(--brand-accent), var(--brand-accent-2));
+}
+
+.greedy-nav .hidden-links {
+  border-color: var(--brand-border);
+  background: var(--brand-panel-2);
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.42);
+}
+
+.greedy-nav .hidden-links::before {
+  border-color: var(--brand-border) transparent;
+}
+
+.greedy-nav .hidden-links::after {
+  border-color: var(--brand-panel-2) transparent;
+}
+
+.greedy-nav .hidden-links li {
+  border-bottom-color: var(--brand-border-soft);
+}
+
+.greedy-nav .hidden-links a:hover {
+  background: rgba(94, 106, 210, 0.12);
+}
+
+.greedy-nav a:hover,
+.greedy-nav .visible-links a:hover {
+  color: var(--brand-text);
+}
+
+.masthead__menu-item--lg a {
+  color: var(--brand-text) !important;
+  letter-spacing: -0.03em;
+}
+
+.masthead__menu-item--lg a::before {
+  content: "";
+  display: inline-block;
+  width: 0.62rem;
+  height: 0.62rem;
+  margin-right: 0.55rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--brand-accent), var(--brand-accent-2));
+  box-shadow: 0 0 22px rgba(94, 106, 210, 0.55);
+  vertical-align: 0.02rem;
+}
+
+#main {
+  margin-top: 3rem;
+}
+
+.page {
+  color: var(--brand-text-soft);
+}
+
+.page__inner-wrap {
+  max-width: 860px;
+}
+
+.page__content {
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+.page__content > h1:first-child {
+  position: relative;
+  margin-bottom: 1.2rem;
+  padding: 2.1rem;
+  border: 1px solid var(--brand-border);
+  border-radius: 22px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.018)),
+    radial-gradient(circle at top right, rgba(94, 106, 210, 0.28), transparent 22rem);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  font-size: clamp(2.45rem, 6vw, 4.5rem);
+  line-height: 0.98;
+}
+
+.page__content > h1:first-child::after {
+  content: "INFRASTRUCTURE · EVALUATION · RELIABILITY · TRUST";
+  display: block;
+  margin-top: 1.25rem;
+  color: var(--brand-text-muted);
+  font-family: "JetBrains Mono", $monospace;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  line-height: 1.6;
+}
+
+.page__content > h1:first-child + p {
+  color: var(--brand-text);
+  font-size: clamp(1.16rem, 2.4vw, 1.48rem);
+  line-height: 1.52;
+  letter-spacing: -0.018em;
+}
+
+.page__content > h1:first-child + p + p {
+  color: var(--brand-text-muted);
+  font-size: 1.08rem;
+}
+
+.page__content h2 {
+  margin-top: 3.4rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--brand-border-soft);
+  font-size: 1.18rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.page__content h2::before {
+  content: "// ";
+  color: var(--brand-accent);
+  font-family: "JetBrains Mono", $monospace;
+  font-weight: 500;
+}
+
+.page__content p,
+.page__content li {
+  color: var(--brand-text-soft);
+}
+
+.page__content strong {
+  color: var(--brand-text);
+  font-weight: 610;
+}
+
+.page__content ul,
+.page__content ol {
+  padding-left: 1.2rem;
+}
+
+.page__content li::marker {
+  color: var(--brand-accent);
+}
+
+.page__content blockquote {
+  border-left-color: var(--brand-accent);
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 0 12px 12px 0;
+}
+
+.page__content code,
+.page__content pre,
+tt, code, kbd, samp, pre {
+  font-family: "JetBrains Mono", $monospace;
+}
+
+.page__content p > code,
+.page__content a > code,
+.page__content li > code,
+.page__content td > code {
+  color: #cbd1ff;
+  background: rgba(255, 255, 255, 0.045);
+  border-color: var(--brand-border);
+  box-shadow: none;
+}
+
+.page__content img,
+.archive__item-teaser img {
+  border: 1px solid var(--brand-border);
+  border-radius: 14px;
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.28);
+}
+
+.sidebar {
+  opacity: 1;
+}
+
+.sidebar.sticky {
+  top: 5.5rem;
+}
+
+.author__avatar img {
+  border: 1px solid var(--brand-border);
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.025), 0 18px 55px rgba(0, 0, 0, 0.32);
+}
+
+.author__content,
+.author__urls-wrapper {
+  color: var(--brand-text-muted);
+}
+
+.author__name {
+  color: var(--brand-text);
+  font-weight: 590;
+  letter-spacing: -0.03em;
+}
+
+.author__bio {
+  color: var(--brand-text-soft);
+  line-height: 1.45;
+}
+
+.author__urls.social-icons li,
+.author__urls.social-icons a {
+  color: var(--brand-text-muted);
+}
+
+.author__urls.social-icons a:hover {
+  color: var(--brand-text);
+}
+
+.btn,
+.btn--inverse,
+.archive__item a[rel="permalink"] {
+  border: 1px solid var(--brand-border) !important;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.035) !important;
+  color: var(--brand-text-soft) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.055);
+}
+
+.btn:hover,
+.btn--inverse:hover {
+  border-color: rgba(155, 167, 255, 0.42) !important;
+  background: rgba(94, 106, 210, 0.14) !important;
+  color: var(--brand-text) !important;
+}
+
+.archive__item {
+  margin-bottom: 1.4rem;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid var(--brand-border-soft);
+  border-radius: 16px;
+  background: var(--brand-surface);
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.archive__item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(155, 167, 255, 0.28);
+  background: var(--brand-surface-strong);
+}
+
+.archive__item-title,
+.archive__item-title a {
+  color: var(--brand-text) !important;
+  text-decoration: none;
+}
+
+.archive__item-excerpt,
+.page__meta,
+.page__date,
+.page__taxonomy,
+.read-time {
+  color: var(--brand-text-muted);
+}
+
+.taxonomy__index a,
+.taxonomy__section a,
+.page__taxonomy a {
+  color: var(--brand-link);
+}
+
+.footer,
+.page__footer {
+  border-top: 1px solid var(--brand-border-soft);
+  background:
+    linear-gradient(180deg, rgba(15, 17, 21, 0.92), rgba(8, 9, 10, 0.98));
+  color: var(--brand-text-muted);
+}
+
+.page__footer footer {
+  margin-top: 1.5rem;
+}
+
+.page__footer a,
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal {
+  color: var(--brand-text-muted);
+}
+
+.page__footer a:hover {
+  color: var(--brand-text);
+}
+
+.page__footer-follow li {
+  color: var(--brand-text-muted);
+  font-family: Inter, $global-font-family;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+}
+
+.page__footer-copyright {
+  color: #6f7682;
+}
+
+@media (max-width: 900px) {
+  #main {
+    margin-top: 1.6rem;
+  }
+
+  .page__content > h1:first-child {
+    padding: 1.35rem;
+    border-radius: 18px;
+  }
+
+  .page__content > h1:first-child::after {
+    font-size: 0.58rem;
+  }
+
+  .archive__item {
+    padding: 1rem;
+  }
+}

@@ -1,22 +1,17 @@
 ---
-title: "Bare Metal and the Operational Layer of AI"
-date: 2026-04-27
-permalink: /posts/2026/04/bare-metal-ai-lab/
-tags:
-  - AI Infrastructure
-  - Local AI
-  - Model Serving
-  - High-Trust Deployment
-  - Observability
+title: "Bare-Metal AI Lab"
+excerpt: "Local AI infrastructure lab for model serving, observability, and deployment experiments."
+collection: portfolio
+permalink: /portfolio/bare-metal-ai-lab/
 ---
 
-I have been building out a local AI lab for model-serving experiments.
+The Bare-Metal AI Lab is my local environment for operating AI systems below the API layer.
 
-The question behind the lab is simple:
+The question behind the project is simple:
 
 > What do you learn about AI systems when you operate the compute yourself?
 
-Cloud APIs are useful. Managed platforms are useful. They let teams move quickly and avoid unnecessary infrastructure work.
+Cloud APIs and managed platforms are useful. They let teams move quickly and avoid unnecessary infrastructure work.
 
 But they also hide many of the constraints that shape real AI systems: GPU memory, model fit, quantization, queueing, service recovery, telemetry, storage, and deployment discipline.
 
@@ -24,9 +19,9 @@ The interesting work is not just getting a model to answer once.
 
 The hard part is operating model capability as infrastructure.
 
-## What the lab is
+## What it is
 
-The lab spans a Linux RTX 3090 workstation and access to Blackwell-class desktop AI hardware when available. I keep the public details intentionally high-level: no hostnames, private endpoints, network topology, ports, credentials, or internal configuration.
+The lab spans a Linux RTX 3090 workstation and access to Blackwell-class desktop AI hardware when available. Public details are intentionally high-level: no hostnames, private endpoints, network topology, ports, credentials, or internal configuration.
 
 The goal is not to collect hardware. The goal is to work closer to the systems layer underneath model capability.
 
@@ -40,9 +35,17 @@ The environment supports local inference and serving experiments across:
 - speech and vision-language-action experiments
 - full-replace deployment workflows for large models
 
-The current experiments include Gemma 4 31B serving, Gemma 4 26B A4B variants, Qwen 35B-class FP8/MoE inference, Whisper Large v3, and OpenVLA 7B.
+## Models and workloads
 
-Those model names are less important than the operational pattern they force.
+Current experiments include:
+
+- **Gemma 4 31B** — local vLLM-compatible serving
+- **Gemma 4 26B A4B variants** — quantized/local model-fit experiments
+- **Qwen 35B-class FP8/MoE** — Blackwell-class inference experiments
+- **Whisper Large v3** — local speech recognition experiments
+- **OpenVLA 7B** — vision-language-action inference experiments
+
+The model names are less important than the operational pattern they force.
 
 Large local models make the hidden parts visible.
 
@@ -67,11 +70,9 @@ A model that works in a notebook is not the same thing as a model that serves re
 
 That distinction matters.
 
-## Observability is part of the product
+## Observability
 
-One of the most useful parts of the lab is the observability layer.
-
-The stack exposes Prometheus-compatible telemetry through GPU and system exporters, along with vLLM metrics for request and serving behavior. That makes it possible to reason about the system as it runs instead of treating inference as a black box.
+The lab includes Prometheus-compatible telemetry through GPU and system exporters, along with vLLM metrics for request and serving behavior. That makes it possible to reason about the system as it runs instead of treating inference as a black box.
 
 For AI infrastructure, the dashboard is not decoration.
 
@@ -88,7 +89,7 @@ This is the difference between a demo and an operated system.
 
 A demo can succeed once. An operated system has to keep succeeding.
 
-## Why bare metal matters
+## What it proves
 
 Managed cloud is abstraction.
 
@@ -96,9 +97,9 @@ Bare metal is contact with reality.
 
 Both are valuable. The point is not that everyone should run their own hardware. Most production systems should use managed infrastructure where it makes sense.
 
-But if you want to build reliable AI systems, it helps to understand what the abstraction is hiding.
+But if the goal is to build reliable AI systems, it helps to understand what the abstraction is hiding.
 
-Bare metal forces you to care about the unglamorous parts:
+Bare metal forces attention on the unglamorous parts:
 
 - drivers
 - containers
@@ -113,18 +114,8 @@ These details shape whether model capability becomes useful in the real world.
 
 That is especially true in high-trust environments, where systems need to be explainable, observable, and recoverable. The model is only one part of the product. The surrounding infrastructure determines whether people can depend on it.
 
-## The broader lesson
+The project proves infrastructure judgment: the ability to reason below the API layer, operate real compute, and understand the deployment constraints that managed platforms abstract away.
 
-The bottleneck in AI is shifting.
+## Public safety note
 
-For a long time, the obvious question was whether models were capable enough. That question still matters, but it is no longer the only question.
-
-The next question is whether teams can turn model capability into systems that are reliable enough for real workflows.
-
-That requires more than prompts and benchmarks. It requires infrastructure judgment.
-
-It requires knowing what happens below the API.
-
-The lab is one way I build that judgment. Not by treating infrastructure as a black box, and not by pretending hardware is the point.
-
-The point is to understand the operational layer of AI well enough to build systems people can actually depend on.
+This page intentionally omits hostnames, private endpoints, network topology, ports, credentials, internal configuration, and employer-provided hardware details.

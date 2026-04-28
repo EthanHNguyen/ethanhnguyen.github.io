@@ -2,6 +2,8 @@
 title: "Why Google?"
 date: 2025-10-01
 permalink: /posts/2025/10/why-google/
+excerpt: "Why Ethan Nguyen joined Google: proximity to the full stack of AI value, from frontier model capability to infrastructure, evaluation, reliability, interfaces, and trust."
+description: "Why Ethan Nguyen joined Google: proximity to the full stack of AI value, from frontier model capability to infrastructure, evaluation, reliability, interfaces, and trust."
 tags:
   - Career
   - AI Infrastructure

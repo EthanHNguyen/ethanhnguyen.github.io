@@ -1,6 +1,7 @@
 ---
 title: "RFP Map"
-excerpt: "Mobile-first market intelligence radar for SAM.gov opportunities."
+excerpt: "RFP Map by Ethan Nguyen is a mobile-first public-data market intelligence interface for exploring SAM.gov opportunities, agency demand, and federal market terrain."
+description: "RFP Map by Ethan Nguyen is a mobile-first public-data market intelligence interface for exploring SAM.gov opportunities, agency demand, and federal market terrain."
 collection: portfolio
 permalink: /portfolio/rfp-map/
 ---

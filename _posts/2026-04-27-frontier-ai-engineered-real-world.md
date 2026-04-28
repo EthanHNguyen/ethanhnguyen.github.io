@@ -6,7 +6,7 @@ tags:
   - AI Infrastructure
   - ML Systems
   - Frontier AI
-  - High-Trust Deployment
+  - Operational Trust
 ---
 
 The interesting work is no longer proving that frontier models are powerful. That part is obvious.
@@ -25,8 +25,8 @@ I’m interested in the path from model capability to deployed value:
 - How do we build interfaces that augment human judgment instead of hiding uncertainty?
 - How do we make frontier AI useful in high-trust environments without exposing sensitive details or overclaiming capability?
 
-That is the thread connecting my current work on Gemini, prior ML platform work, research background, and public builds like RFP Map.
+That is the thread connecting my current work, prior ML platform work, research background, and public builds like RFP Map.
 
-The goal is not to be a generic AI engineer. The goal is to become the kind of engineer who can bridge model capability, deployment reality, and product judgment.
+The goal is not to be a generic AI engineer. The goal is to become the kind of engineer who can bridge model capability, production reality, and product judgment.
 
 That is the frontier I care about.

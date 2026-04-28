@@ -2,6 +2,8 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
+excerpt: "Peer-reviewed machine learning research by Ethan H. Nguyen in computer vision and medical image analysis, connected to frontier AI systems, evaluation, reliability, and operational trust."
+description: "Peer-reviewed machine learning research by Ethan H. Nguyen in computer vision and medical image analysis, connected to frontier AI systems, evaluation, reliability, and operational trust."
 author_profile: true
 ---
 

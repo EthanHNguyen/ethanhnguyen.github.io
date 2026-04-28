@@ -1,6 +1,7 @@
 ---
 title: "Bare-Metal AI Lab"
 excerpt: "Local AI infrastructure lab for model serving, observability, and deployment experiments."
+description: "Bare-Metal AI Lab by Ethan Nguyen is a local AI infrastructure project for model serving, observability, telemetry, quantization, and operational reliability below the API layer."
 collection: portfolio
 permalink: /portfolio/bare-metal-ai-lab/
 ---

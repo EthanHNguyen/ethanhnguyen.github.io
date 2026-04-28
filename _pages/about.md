@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: "About"
-excerpt: "Frontier AI systems builder"
+excerpt: "Ethan Nguyen is an AI/ML engineer at Google Public Sector building frontier AI systems for high-trust operations: infrastructure, evaluation, reliability, interfaces, and operational trust."
+description: "Ethan Nguyen is an AI/ML engineer at Google Public Sector building frontier AI systems for high-trust operations: infrastructure, evaluation, reliability, interfaces, and operational trust."
 author_profile: true
 redirect_from:
   - /about/

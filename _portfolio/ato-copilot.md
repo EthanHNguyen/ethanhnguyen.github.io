@@ -1,6 +1,7 @@
 ---
 title: "ATO Copilot"
-excerpt: "Source-backed AI for government authorization workflows."
+excerpt: "ATO Copilot by Ethan Nguyen is a source-backed AI prototype for government authorization workflows, evidence mapping, reviewer questions, provenance, and operational trust."
+description: "ATO Copilot by Ethan Nguyen is a source-backed AI prototype for government authorization workflows, evidence mapping, reviewer questions, provenance, and operational trust."
 collection: portfolio
 permalink: /portfolio/ato-copilot/
 ---

@@ -2,10 +2,12 @@
 title: "ATO Copilot and the Compliance Gap in Agentic Software"
 date: 2026-04-27
 permalink: /posts/2026/04/ato-copilot-source-backed-ai/
+excerpt: "ATO Copilot is a source-backed AI prototype exploring evidence, provenance, reviewer questions, and operational trust in government authorization workflows."
+description: "ATO Copilot is a source-backed AI prototype exploring evidence, provenance, reviewer questions, and operational trust in government authorization workflows."
 tags:
   - AI for Government
   - GovTech
-  - High-Trust Deployment
+  - Operational Trust
   - Compliance
   - Agentic Coding
 ---

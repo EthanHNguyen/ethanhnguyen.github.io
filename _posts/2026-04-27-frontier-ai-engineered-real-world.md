@@ -2,6 +2,8 @@
 title: "Frontier AI, Engineered for the Real World"
 date: 2026-04-27
 permalink: /posts/2026/04/frontier-ai-engineered-real-world/
+excerpt: "Frontier AI becomes valuable when model capability turns into reliable systems: infrastructure, evaluation, observability, interfaces, and operational trust."
+description: "Frontier AI becomes valuable when model capability turns into reliable systems: infrastructure, evaluation, observability, interfaces, and operational trust."
 tags:
   - AI Infrastructure
   - ML Systems

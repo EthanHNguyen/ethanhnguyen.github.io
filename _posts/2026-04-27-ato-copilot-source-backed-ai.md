@@ -12,6 +12,8 @@ tags:
 
 At c0mpiled-10/DC: AI for Government, I built ATO Copilot in a four-hour hackathon and won 1st place.
 
+The c0mpiled recap described the project as “TurboTax for government security approvals.” That is a useful shorthand. The deeper thesis is that authorization work needs better evidence infrastructure.
+
 The prototype explored a narrow question:
 
 > Can AI help government teams move through authorization and compliance workflows by grounding every recommendation in source evidence?
@@ -64,6 +66,10 @@ The important design choice is that the system is not a generic chatbot.
 A blank chat interface asks the user to know what to ask. A compliance workflow needs the opposite: it should shape messy evidence into reviewer-ready work products. The interaction should start with artifacts and produce structured analysis, not start with a prompt box and hope the user interrogates the system correctly.
 
 That is the difference between AI as an answer machine and AI as workflow infrastructure.
+
+![ATO Copilot demo showing source-backed control analysis over synthetic evidence](/images/ato-copilot-package-scan-complete.png)
+
+*ATO Copilot demo interface using synthetic evidence. The screenshot shows source-backed control analysis, reviewer questions, recommended actions, and provenance traces.*
 
 ## Why this matters
 

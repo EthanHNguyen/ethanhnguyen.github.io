@@ -12,11 +12,11 @@ tags:
   - Agentic Coding
 ---
 
-At c0mpiled-10/DC: AI for Government, I built ATO Copilot in a four-hour hackathon and won 1st place.
-
-The prototype explored a narrow question:
+At c0mpiled-10/DC: AI for Government, I built ATO Copilot, a four-hour hackathon prototype for source-backed authorization support. It won 1st place, but the more interesting part was the question it explored.
 
 > Can AI help government teams move through authorization and compliance workflows by grounding every recommendation in source evidence?
+
+ATO is one instance of a broader pattern: high-trust workflows where messy evidence has to become structured reasoning before a human can make an accountable decision.
 
 That question matters more now because software development is accelerating faster than compliance is.
 
@@ -63,6 +63,8 @@ The demo ingests synthetic evidence artifacts and produces structured control an
 
 The important design choice is that the system is not a generic chatbot.
 
+For example, if an evidence artifact claims that audit logging is enabled, a useful system should not simply repeat that claim. It should map the claim to the relevant control area, quote the exact source text, identify whether retention or access review evidence is missing, and suggest what a reviewer should inspect next.
+
 A blank chat interface asks the user to know what to ask. A compliance workflow needs the opposite: it should shape messy evidence into reviewer-ready work products. The interaction should start with artifacts and produce structured analysis, not start with a prompt box and hope the user interrogates the system correctly.
 
 That is the difference between AI as an answer machine and AI as workflow infrastructure.
@@ -98,7 +100,7 @@ This is the kind of work AI should do in government and regulated environments: 
 
 ## The product thesis
 
-AI for government should not begin as generic chat over documents.
+Most government AI demos begin as chat over documents. That can be useful, but it is not enough for high-trust workflows.
 
 The stronger pattern is workflow-native AI:
 
@@ -127,4 +129,6 @@ The teams that figure this out will move faster without lowering trust. The team
 
 That is the gap ATO Copilot is pointed at.
 
-GitHub: [https://github.com/EthanHNguyen/ato-copilot](https://github.com/EthanHNguyen/ato-copilot)
+The prototype is public here: [https://github.com/EthanHNguyen/ato-copilot](https://github.com/EthanHNguyen/ato-copilot)
+
+It uses synthetic evidence only and is intended as a product/architecture sketch, not an operational authorization system.

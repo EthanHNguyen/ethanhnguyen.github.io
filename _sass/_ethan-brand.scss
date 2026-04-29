@@ -325,11 +325,29 @@ tt, code, kbd, samp, pre {
 
 .author__urls.social-icons li,
 .author__urls.social-icons a {
-  color: var(--brand-text-muted);
+  color: var(--brand-text-soft);
+}
+
+.author__urls.social-icons i {
+  color: #b8c0ff;
 }
 
 .author__urls.social-icons a:hover {
   color: var(--brand-text);
+}
+
+.author__urls {
+  border-color: var(--brand-border);
+  background: var(--brand-panel);
+  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.34);
+}
+
+.author__urls::before {
+  border-color: var(--brand-border) transparent;
+}
+
+.author__urls::after {
+  border-color: var(--brand-panel) transparent;
 }
 
 .btn,

@@ -277,6 +277,30 @@ tt, code, kbd, samp, pre {
   font-family: "JetBrains Mono", $monospace;
 }
 
+div.highlighter-rouge,
+figure.highlight,
+.page__content pre,
+.page__content .highlight {
+  border-color: var(--brand-border);
+  background: #10131a;
+  color: #eef1ff;
+  box-shadow: none;
+}
+
+div.highlighter-rouge::before,
+figure.highlight::before {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--brand-text-soft);
+}
+
+.page__content pre,
+.page__content pre code,
+.page__content .highlight,
+.page__content .highlight pre,
+.page__content .highlight code {
+  color: #eef1ff;
+}
+
 .page__content p > code,
 .page__content a > code,
 .page__content li > code,

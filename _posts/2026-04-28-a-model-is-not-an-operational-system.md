@@ -120,23 +120,23 @@ model capability
 
 If any layer is weak, the value of the model is constrained by the system around it.
 
-This is why I care about building below the demo layer: model serving, telemetry, evaluation, provenance, interfaces, and recovery paths.
+The teams that get value from AI will be the ones that build below the demo layer: model serving, telemetry, evaluation, provenance, interfaces, and recovery paths.
 
 That is where capability becomes something an organization can use.
 
-## What my public projects are testing
+## What operational AI should make visible
 
-My public builds test this thesis from different angles.
+Useful AI systems should make the surrounding work visible, not hide it behind a fluent answer.
 
-**ATO Copilot** explores source-backed AI for authorization workflows. The important part is not that a model can summarize evidence. The important part is that the system preserves provenance, surfaces reviewer questions, and keeps humans accountable.
+A source-backed workflow should preserve provenance, surface reviewer questions, and keep humans accountable.
 
-**RFP Map** treats public procurement data as terrain. The point is not another search box. The point is making a messy public-data surface easier to explore, cluster, and reason over.
+A public-data workflow should make messy information easier to explore, cluster, and reason over.
 
-**Bare-Metal AI Lab** keeps me close to the infrastructure underneath model capability: serving runtimes, telemetry, quantization, local constraints, and failure recovery.
+An infrastructure workflow should expose serving constraints, telemetry, quality tradeoffs, and failure recovery paths.
 
 The common thread is operational translation.
 
-The question is always:
+The question for any AI project should be:
 
 > What has to exist around the model before the model becomes useful?
 
@@ -156,4 +156,19 @@ From benchmark performance to operational trust.
 
 The next generation of AI work will not be won by models alone. It will be won by the people and teams who can turn model capability into systems that survive contact with real constraints.
 
-That is the layer I care about.
+## Build the layer around the model
+
+If you are bringing AI into a real workflow, do not stop at the model choice.
+
+Map the system around it:
+
+- What evidence does the system need?
+- How will outputs be evaluated?
+- Where will uncertainty be shown?
+- What can a reviewer inspect?
+- How will failures be detected and recovered?
+- What should be logged for audit and improvement?
+
+The call to action is simple: treat the model as one component in an operational system. Design the workflow, evidence, evaluation, interface, and recovery paths with the same seriousness as the model itself.
+
+That is how AI moves from impressive output to dependable work.

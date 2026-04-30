@@ -83,6 +83,10 @@ The initial run intentionally contains problems:
 
 FieldDesk surfaces those as review blockers before the package reaches a human reviewer. After the user stages corrections, the system recomputes readiness and generates a package with evidence map, reviewer objections, action list, packet summary, export rows, and source-backed trace.
 
+![FieldDesk synthetic demo showing a TDY readiness workflow with source-backed evidence, deterministic per diem verification, and a review-ready packet](/images/fielddesk/fielddesk-final-package.png)
+
+*FieldDesk synthetic demo. The screenshot shows the final readiness package after corrections are staged: evidence map, reviewer notes, deterministic per diem verification, workflow progress, and export-oriented fields. All visible data is synthetic.*
+
 The core value moment is simple:
 
 > catch avoidable administrative failure before review.

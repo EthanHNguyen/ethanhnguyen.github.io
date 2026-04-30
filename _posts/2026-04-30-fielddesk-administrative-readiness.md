@@ -2,8 +2,8 @@
 title: "FieldDesk: Agentic Workflow Infrastructure for Administrative Readiness"
 date: 2026-04-30
 permalink: /posts/2026/04/fielddesk-administrative-readiness/
-excerpt: "FieldDesk is a source-backed AI prototype for military administrative readiness. It won the first-phase DC GenAI.mil track at the SCSP 2026 National Security Technology Hackathon."
-description: "FieldDesk is a source-backed AI prototype for military administrative readiness. It won the first-phase DC GenAI.mil track at the SCSP 2026 National Security Technology Hackathon."
+excerpt: "FieldDesk is a source-backed AI prototype for military administrative readiness. It won the DC first-phase GenAI.mil track qualifier at the SCSP 2026 National Security Technology Hackathon."
+description: "FieldDesk is a source-backed AI prototype for military administrative readiness. It won the DC first-phase GenAI.mil track qualifier at the SCSP 2026 National Security Technology Hackathon."
 tags:
   - AI for Government
   - GovTech
@@ -12,7 +12,7 @@ tags:
   - Hackathon
 ---
 
-At the SCSP 2026 National Security Technology Hackathon in Washington, D.C., I built FieldDesk, a prototype for military administrative readiness. FieldDesk won the first-phase DC GenAI.mil track.
+At the SCSP 2026 National Security Technology Hackathon in Washington, D.C., I built FieldDesk, a prototype for military administrative readiness. FieldDesk won the DC first-phase GenAI.mil track qualifier, which advanced the project from the local first round.
 
 The useful part was not the award. It was the technical question the prototype forced:
 
@@ -39,7 +39,7 @@ That is the layer around the model.
 
 The event was SCSP's 2026 National Security Technology Hackathon, hosted as part of the AI+ Expo ecosystem. SCSP describes the hackathon as bringing together AI engineers from academia, research institutions, the private sector, and government to build applications for national competitiveness and national security.
 
-The first phase took place across San Francisco, Boston, and Washington, D.C. Teams built prototypes in tracks including Cloud Laboratories, Electric Grid Optimization, Wargaming, and GenAI.mil. The GenAI.mil track focused on AI tools for military administrative work, logistics, and tactical knowledge retrieval for rank-and-file users.
+The first phase took place across San Francisco, Boston, and Washington, D.C. Teams built prototypes in tracks including Cloud Laboratories, Electric Grid Optimization, Wargaming, and GenAI.mil. FieldDesk won the GenAI.mil track for the Washington, D.C. first phase. The GenAI.mil track focused on AI tools for military administrative work, logistics, and tactical knowledge retrieval for rank-and-file users.
 
 That framing was useful because it constrained the build. The prototype had to target a concrete user, a concrete workflow, and a concrete failure mode.
 

@@ -166,6 +166,30 @@ That pattern generalizes:
 
 The goal is not to distrust the model. The goal is to put the model in the right part of the system.
 
+## Scaling across the Department
+
+The TDY workflow is only one instance of a broader pattern.
+
+The scalable version of FieldDesk is not one central team hard-coding every administrative process. It is a workflow layer where units can create, improve, and share operational workflows with each other.
+
+A battalion that has already encoded a good travel-readiness workflow should not force every other battalion to rediscover the same checklist, source mapping, reviewer objections, and export fields. The useful artifact is not just the completed packet. It is the reusable workflow:
+
+```text
+workflow template
+  -> required sources
+  -> extraction schema
+  -> deterministic checks
+  -> reviewer questions
+  -> export format
+  -> local unit adjustments
+```
+
+That makes the system compounding. One unit can build a workflow for TDY packets. Another can adapt it for equipment turn-in. Another can encode a recurring training-readiness process. Over time, this points toward a Department-wide library of source-backed workflows that preserve local context without making every unit start from a blank chat box.
+
+The important governance boundary is that shared workflows should be inspectable before they are adopted. A unit should be able to see what sources a workflow expects, what fields it extracts, what checks it runs, what assumptions it makes, and where human approval remains required.
+
+The end-state product thesis is not a single giant assistant. It is a shared workflow graph for administrative readiness: reusable enough to spread across units, local enough to adapt to mission context, and structured enough to keep evidence and accountability intact.
+
 ## Evaluation
 
 FieldDesk includes a small evaluation harness around the demo workflow.
@@ -216,7 +240,7 @@ human-reviewable packages
 
 FieldDesk is a hackathon prototype, not a production military system.
 
-The public repository uses synthetic demo data only. It contains no real personnel information, credentials, operational records, or government output. The connectors are mocked to show the workflow pattern without requiring access to live enterprise systems.
+The public repository uses synthetic demo data only. It does not include personal records, credentials, operational records, or government output. The connectors are mocked to show the workflow pattern without requiring access to production systems.
 
 That constraint is intentional. The public demo is meant to make the product shape inspectable:
 

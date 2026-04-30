@@ -1,9 +1,9 @@
 ---
-title: "FieldDesk and Administrative Readiness"
+title: "FieldDesk: Agentic Workflow Infrastructure for Administrative Readiness"
 date: 2026-04-30
 permalink: /posts/2026/04/fielddesk-administrative-readiness/
-excerpt: "FieldDesk is a source-backed AI prototype for military administrative readiness. It won the GenAI.mil track in Washington, D.C. at the SCSP 2026 National Security Technology Hackathon."
-description: "FieldDesk is a source-backed AI prototype for military administrative readiness. It won the GenAI.mil track in Washington, D.C. at the SCSP 2026 National Security Technology Hackathon."
+excerpt: "FieldDesk is a source-backed AI prototype for military administrative readiness. It won the first-phase DC GenAI.mil track at the SCSP 2026 National Security Technology Hackathon."
+description: "FieldDesk is a source-backed AI prototype for military administrative readiness. It won the first-phase DC GenAI.mil track at the SCSP 2026 National Security Technology Hackathon."
 tags:
   - AI for Government
   - GovTech
@@ -12,28 +12,28 @@ tags:
   - Hackathon
 ---
 
-At the SCSP 2026 National Security Technology Hackathon in Washington, D.C., I built FieldDesk, a prototype for military administrative readiness. FieldDesk won the local GenAI.mil track.
+At the SCSP 2026 National Security Technology Hackathon in Washington, D.C., I built FieldDesk, a prototype for military administrative readiness. FieldDesk won the first-phase DC GenAI.mil track.
 
-The win was meaningful, but the more interesting part was the question the prototype explored:
+The useful part was not the award. It was the technical question the prototype forced:
 
-> What if AI for government work did not start as a chatbot, but as workflow infrastructure for turning fragmented evidence into route-ready action?
+> What should exist around a model before it can safely help with high-trust administrative work?
 
-That question matters because a lot of operational friction is not dramatic. It is administrative.
+FieldDesk is my answer to that question in one workflow.
 
-The military does not just run on orders. It runs on the administrative work that makes orders executable: packets, rosters, checklists, approvals, policy references, emails, funding evidence, rate tables, and routing rules.
+It is not a regulation chatbot. It is an agentic workflow system that takes mission intent, searches controlled sources, maps evidence to requirements, catches gaps, runs deterministic checks, and produces a review-ready action package for a human.
 
-When that work breaks, the failure mode is familiar. A packet comes back. The preparer fixes one issue. Another issue appears. The reviewer sees a mismatch. The unit loses time.
+The product surface is military administration. The technical pattern is broader:
 
-The person doing the work usually does not need another search box. They need to know:
+```text
+controlled sources
+  -> tool-using agent
+  -> structured extraction
+  -> deterministic verification
+  -> source-backed workflow state
+  -> human-review package
+```
 
-- Which sources matter?
-- What evidence has been found?
-- What is missing?
-- What conflicts?
-- What will likely get returned?
-- What should happen next?
-
-FieldDesk was built around that loop.
+That is the layer around the model.
 
 ## The hackathon context
 
@@ -41,106 +41,153 @@ The event was SCSP's 2026 National Security Technology Hackathon, hosted as part
 
 The first phase took place across San Francisco, Boston, and Washington, D.C. Teams built prototypes in tracks including Cloud Laboratories, Electric Grid Optimization, Wargaming, and GenAI.mil. The GenAI.mil track focused on AI tools for military administrative work, logistics, and tactical knowledge retrieval for rank-and-file users.
 
-That framing was important. It pushed the project away from abstract AI demos and toward a concrete user: a junior NCO trying to turn mission intent into a complete administrative packet.
+That framing was useful because it constrained the build. The prototype had to target a concrete user, a concrete workflow, and a concrete failure mode.
 
-## What FieldDesk does
+## The workflow
 
-FieldDesk is an agentic workflow platform for administrative readiness.
+The first workflow is TDY travel readiness.
 
-The demo starts with a TDY travel scenario because it is concrete, common, and painful. A user enters mission intent:
+A user enters mission intent:
 
 > Send 10 soldiers to Demo Training Site for training from June 10-14. Lodging and rental vehicles required.
 
-From there, FieldDesk searches across mocked sources that represent the kinds of systems a real workflow would touch:
-
-- Outlook-style coordination messages
-- SharePoint-style documents and rosters
-- GSA-style per diem data
-- JTR-style policy excerpts
-- local SOPs and unit checklists
-- uploaded correction files
-- DTS-style export fields
-
-The point is not that TDY is the only workflow. TDY is the wedge.
-
-The broader pattern is:
+FieldDesk turns that sentence into structured workflow state:
 
 ```text
-mission intent
-  -> fragmented evidence
-  -> requirement mapping
-  -> gap detection
-  -> reviewer objections
-  -> staged corrections
-  -> route-ready package
+workflow: TDY travel
+purpose: training
+destination: Demo Training Site
+dates: June 10-14
+travelers: 10
+lodging: required
+rental vehicles: required
 ```
 
-In the demo, FieldDesk finds the training order, roster, approval email, rate data, policy references, and local checklist. It also catches issues that would likely cause the packet to come back:
+Then the agent searches mocked sources that represent the systems a real workflow would touch:
+
+- coordination messages
+- document repositories
+- rosters
+- training orders
+- GSA-style rate data
+- JTR-style policy excerpts
+- local SOPs and unit checklists
+- uploaded corrections
+- DTS-style export fields
+
+The initial run intentionally contains problems:
 
 - the mission says 10 travelers, but the roster only shows 8
 - no funding memo is present
 - the rental vehicle justification is too generic for review
 
-After the user stages corrections, FieldDesk recomputes readiness and generates a review package: evidence map, reviewer objections, action list, packet summary, DTS-style export rows, and source-backed audit trail.
+FieldDesk surfaces those as review blockers before the package reaches a human reviewer. After the user stages corrections, the system recomputes readiness and generates a package with evidence map, reviewer objections, action list, packet summary, export rows, and source-backed trace.
 
 The core value moment is simple:
 
-> FieldDesk catches avoidable administrative failure before review.
+> catch avoidable administrative failure before review.
 
-## Not a regulation chatbot
+## The architecture
 
-A regulation chatbot can answer questions about policy. That can be useful, but it is not enough for operational administrative work.
+The prototype is a TypeScript / Next.js application with a controlled agent runtime.
 
-The hard part is not only finding the right paragraph. The hard part is connecting a user's intent to the evidence required to execute it.
+The important design choice is the boundary between semantic reasoning and deterministic verification.
 
-A useful system should be able to say:
-
-- Here is the mission intent I understood.
-- Here are the sources I checked.
-- Here is the evidence I found.
-- Here is the policy or checklist requirement it maps to.
-- Here is what is missing or weak.
-- Here is what a reviewer will likely object to.
-- Here is the next action needed before routing.
-
-That is a different product shape from chat.
-
-A blank chat box asks the user to know what to ask. FieldDesk starts from the workflow and turns scattered context into structured work products. The interface is not centered on conversation. It is centered on readiness.
-
-## The agent boundary
-
-The prototype separates model reasoning from system verification.
+```text
+intent
+  -> source selection
+  -> agent tool loop / synthesis
+  -> structured output schema
+  -> deterministic rules
+  -> validated workflow object
+  -> review package
+```
 
 The model owns semantic work:
 
 - interpreting mission intent
-- selecting relevant sources
-- extracting facts from evidence
+- choosing relevant source tools
+- extracting facts from documents and messages
 - identifying gaps and conflicts
 - drafting reviewer objections and next actions
 
-The application owns deterministic controls:
+The application owns system controls:
 
-- source availability
-- correction state
+- which sources are available
+- which corrections have been staged
+- which tools the agent can call
 - schema validation
 - per diem arithmetic
-- audit trace
+- audit trace construction
 - final API contract
 
-That boundary matters.
+This boundary matters because high-trust workflows should not put all correctness inside the model. The model can reason over messy context, but the platform should control what data exists, what tools can run, what math is trusted, what output shape is valid, and what a human can inspect.
 
-In high-trust workflows, the model should not be the only place where correctness lives. It can reason over messy context, but the platform should constrain what data is available, what tools can run, what math is trusted, what outputs are valid, and what gets handed to a human.
+A model response is not a workflow state.
 
-For example, FieldDesk keeps per diem calculation in deterministic code rather than asking the model to invent arithmetic. It uses structured schemas for agent output. It runs golden-scenario evaluations and LLM-as-judge checks for semantic quality. It treats the agent as one component in a workflow, not as the whole system.
+A workflow state needs source references, typed fields, validation, deterministic checks, and a path to human review.
 
-That is the design lesson I keep coming back to:
+## Tool use over open-ended chat
 
-> A model is not an operational system.
+The autonomous path uses fixture-backed tools instead of open-ended search.
 
-FieldDesk is another exploration of the layer around the model: tools, evidence, interface, evaluation, deterministic verification, and human review.
+That was intentional. In the public prototype, the tools are mocked. In a real environment, the same boundary would represent approved connectors into systems such as email, document stores, policy references, rate tables, and workflow systems.
 
-## Why administrative readiness matters
+The agent loop is bounded:
+
+1. The model chooses a tool call.
+2. The API validates the tool arguments.
+3. The tool executes against controlled fixture data.
+4. The observation is appended to agent state.
+5. The loop continues until the model returns a final synthesis or reaches a step limit.
+6. The final object passes schema validation and deterministic checks.
+
+That is a different product shape from a blank chat box.
+
+A blank chat box asks the user to know what to ask. FieldDesk asks the system to know what the workflow requires.
+
+## Deterministic checks outside the model
+
+Some parts of the workflow should not be delegated to the model.
+
+Per diem arithmetic is one example. FieldDesk lets the model extract trip facts and reason over evidence, but the application verifies rate calculations using deterministic rules.
+
+That pattern generalizes:
+
+- let the model interpret messy language
+- keep arithmetic in code
+- keep source availability explicit
+- keep output schemas strict
+- keep human-review artifacts inspectable
+
+The goal is not to distrust the model. The goal is to put the model in the right part of the system.
+
+## Evaluation
+
+FieldDesk includes a small evaluation harness around the demo workflow.
+
+The evals use a golden scenario for the TDY case and check both exact fields and semantic quality:
+
+- exact checks for structured fields like dates, travelers, and estimated totals
+- expected initial output before corrections
+- expected corrected output after staged fixes
+- tool-loop tests for source retrieval behavior
+- deterministic-rule tests for calculation logic
+- LLM-as-judge grading for groundedness and reasoning quality
+
+This is still a hackathon prototype, so the evals are small. But the principle matters.
+
+For operational AI, evaluation has to move closer to the workflow. It is not enough to ask whether the model can answer a policy question. The system has to be evaluated on whether it helps a user produce a better package under realistic constraints:
+
+- Did it find the right sources?
+- Did it expose missing evidence?
+- Did it distinguish weak evidence from strong evidence?
+- Did deterministic checks catch errors?
+- Did the final package help a reviewer inspect the decision?
+
+Those are systems questions, not only model questions.
+
+## Why this matters
 
 Administrative work is easy to dismiss because it looks like paperwork.
 
@@ -148,44 +195,18 @@ But paperwork is often how organizations coordinate action. It decides whether p
 
 If that layer is slow, the organization is slow.
 
-This is especially true in high-trust environments. The answer cannot be to let AI silently skip review or invent missing facts. The answer is to make the workflow more legible before it reaches the reviewer.
-
 The right AI system should compress the evidence surface without hiding accountability. It should preserve sources, surface gaps, and help humans make better decisions faster.
 
-That is why FieldDesk is not framed as "automating paperwork" in the simplistic sense. The goal is administrative readiness:
+That is why FieldDesk is not framed as "automating paperwork" in the simplistic sense. The technical goal is administrative readiness:
 
 ```text
 less hunting
 less rework
 clearer gaps
-better review packages
-faster execution
+typed workflow state
+source-backed outputs
+human-reviewable packages
 ```
-
-## The broader product thesis
-
-FieldDesk is about one TDY workflow, but the pattern extends beyond TDY.
-
-Many military administrative workflows have the same shape:
-
-- leave
-- supply
-- maintenance
-- range requests
-- training approvals
-- personnel actions
-- deployment paperwork
-- housing
-- awards
-- evaluations
-
-Each workflow has local rules, required artifacts, source systems, reviewer expectations, and common failure modes. A strong process usually lives in someone's head, inbox, folder structure, or unit checklist.
-
-FieldDesk points toward a system where those workflows can become reusable templates.
-
-A unit should be able to encode the sources, requirements, checklist items, reviewer objections, and routing risks that matter for a workflow. The agent can then help gather evidence, reason across it, and prepare the package, while the platform preserves the trace and keeps humans accountable.
-
-That is the useful version of AI in this context: not generic automation, but workflow memory and evidence-native assistance.
 
 ## Scope and safety
 
@@ -193,15 +214,17 @@ FieldDesk is a hackathon prototype, not a production military system.
 
 The public repository uses synthetic demo data only. It contains no real personnel information, credentials, operational records, or government output. The connectors are mocked to show the workflow pattern without requiring access to live enterprise systems.
 
-That constraint is intentional. The goal of the demo is to make the product shape inspectable and public-safe:
+That constraint is intentional. The public demo is meant to make the product shape inspectable:
 
 - agent-led evidence gathering
+- controlled tool use
+- structured extraction
 - gap detection
 - correction staging
 - deterministic verification
 - reviewer-ready output
 
-The real work would be integrating those patterns into approved environments, approved data sources, and accountable review processes.
+The real work would be integrating the same patterns into approved environments, approved data sources, and accountable review processes.
 
 ## What I learned
 

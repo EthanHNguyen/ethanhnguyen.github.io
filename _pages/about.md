@@ -64,4 +64,4 @@ The best opportunities sit at the intersection.
 
 Hard systems. Real users. Fast loops. High standards.
 
-**Explore:** [Projects](/portfolio/) · [Experiments](/experiments/) · [Publications](/publications/) · [Writing](/year-archive/) · [GitHub](https://github.com/EthanHNguyen) · [LinkedIn](https://www.linkedin.com/in/ethan-h-nguyen)
+**Explore:** [Projects](/portfolio/) · [Oddments](/experiments/) · [Publications](/publications/) · [Writing](/year-archive/) · [GitHub](https://github.com/EthanHNguyen) · [LinkedIn](https://www.linkedin.com/in/ethan-h-nguyen)

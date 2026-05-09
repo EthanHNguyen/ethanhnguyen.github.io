@@ -3,13 +3,13 @@ main:
   - title: "Projects"
     url: /portfolio/
 
-  - title: "Oddments"
-    url: /experiments/
-
   - title: "Writing"
     url: /year-archive/
 
   - title: "Publications"
     url: /publications/
+
+  - title: "Oddments"
+    url: /experiments/
 
   # Talks and resume intentionally hidden from primary navigation while the public brand is focused on current builder artifacts.

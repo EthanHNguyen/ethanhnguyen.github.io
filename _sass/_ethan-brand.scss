@@ -440,29 +440,6 @@ figure.highlight::before {
   background: var(--brand-surface-strong);
 }
 
-.experiment-item__meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin-bottom: 0.7rem;
-}
-
-.experiment-item__meta span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 1.75rem;
-  padding: 0.22rem 0.58rem;
-  border: 1px solid var(--brand-border-soft);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.035);
-  color: var(--brand-text-muted);
-  font-family: "JetBrains Mono", $monospace;
-  font-size: 0.62rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .experiment-item h2 {
   margin: 0 0 0.35rem;
   padding: 0;
@@ -483,21 +460,8 @@ figure.highlight::before {
 }
 
 .experiment-item p {
-  margin: 0 0 0.75rem;
+  margin: 0;
   color: var(--brand-text-soft);
-}
-
-.experiment-item__link {
-  color: var(--brand-link);
-  font-size: 0.9rem;
-  font-weight: 560;
-  text-decoration: none;
-}
-
-.experiment-item__link::after {
-  content: " ->";
-  font-family: "JetBrains Mono", $monospace;
-  font-size: 0.82em;
 }
 
 .experiment-note {

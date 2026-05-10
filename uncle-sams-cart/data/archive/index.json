@@ -1,0 +1,35 @@
+{
+  "source": "uncle-sams-cart-archive",
+  "updatedAt": "2026-04-29T21:25:41.271672+00:00",
+  "latestDate": "2026-04-29",
+  "receipts": [
+    {
+      "date": "2026-04-29",
+      "path": "/data/archive/2026-04-29.json",
+      "generatedAt": "2026-04-29T21:24:20.847248+00:00",
+      "activeRows": 77307,
+      "itemCount": 5,
+      "titles": [
+        "Barracks, but for dogs with jobs",
+        "Inflatable jet boat. Motor included. Democracy continues.",
+        "The deer and geese situation has reached procurement",
+        "The fish are on a federal meal plan",
+        "National forest seeks brave soul with pump truck"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "path": "/data/archive/2026-04-27.json",
+      "generatedAt": "2026-04-27T23:57:30.349802+00:00",
+      "activeRows": 73946,
+      "itemCount": 5,
+      "titles": [
+        "Barracks, but for dogs with jobs",
+        "Inflatable jet boat. Motor included. Democracy continues.",
+        "The deer and geese situation has reached procurement",
+        "The fish are on a federal meal plan",
+        "National forest seeks brave soul with pump truck"
+      ]
+    }
+  ]
+}

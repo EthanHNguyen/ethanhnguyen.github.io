@@ -1,0 +1,186 @@
+{
+  "source": "sam.gov-bulk-csv",
+  "generatedAt": "2026-04-27T23:57:30.349802+00:00",
+  "totalRows": 73946,
+  "activeRows": 73946,
+  "method": "curated-top-five-from-deterministic-keyword-scoring-no-llm-no-prices",
+  "items": [
+    {
+      "id": "c6c6db2d4cfc415eb5a1cabf99603bce",
+      "title": "Military Working Dog Kennel Hunter Army Airfield, Savannah, Georgia",
+      "agency": "Defense",
+      "agencyFull": "DEPT OF DEFENSE",
+      "office": "W074 ENDIST SAVANNAH",
+      "noticeType": "Solicitation",
+      "postedDate": "2026-04-14 10:04:38.604-04",
+      "responseDeadline": "2026-05-14T11:00:00-04:00",
+      "placeOfPerformance": "Unknown",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/c6c6db2d4cfc415eb5a1cabf99603bce/view",
+      "category": "Animal Logistics",
+      "weirdnessScore": 190,
+      "absurdityBadges": [
+        "Dogs With Jobs",
+        "Base Housing",
+        "Officially Real"
+      ],
+      "matchedTerms": [
+        "dog",
+        "kennel",
+        "sign",
+        "airfield"
+      ],
+      "weirdnessReasons": [
+        "animal logistics signal: dog, kennel",
+        "oddly specific object signal: sign",
+        "government vibe signal: airfield"
+      ],
+      "plainEnglish": "It reads like animal logistics inside a federal procurement record. It may be perfectly reasonable — the weird part is seeing it as an official line item.",
+      "officialTitle": "Military Working Dog Kennel Hunter Army Airfield, Savannah, Georgia",
+      "displayTitle": "Barracks, but for dogs with jobs",
+      "punchline": "Officially, it is a military working-dog kennel. Unofficially, it is base housing for employees who can smell contraband.",
+      "displayCategory": "Dog Barracks"
+    },
+    {
+      "id": "a12c60bafdcf4044bfc27057b3322359",
+      "title": "Inflatable Shallow-Water Jet Boat, Motor, and Trailer",
+      "agency": "Interior",
+      "agencyFull": "INTERIOR, DEPARTMENT OF THE",
+      "office": "FWS, IT SERVICES",
+      "noticeType": "Sources Sought",
+      "postedDate": "2026-04-09 14:12:57.761-04",
+      "responseDeadline": "2026-04-23T17:00:00-04:00",
+      "placeOfPerformance": "Unknown",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/a12c60bafdcf4044bfc27057b3322359/view",
+      "category": "Animal Logistics",
+      "weirdnessScore": 184,
+      "absurdityBadges": [
+        "Tiny Action Movie",
+        "Trailer Included",
+        "Officially Real"
+      ],
+      "matchedTerms": [
+        "fish",
+        "fisheries",
+        "wildlife",
+        "boat"
+      ],
+      "weirdnessReasons": [
+        "animal logistics signal: fish, fisheries, wildlife",
+        "oddly specific object signal: boat",
+        "federal procurement language around a surprisingly concrete object"
+      ],
+      "plainEnglish": "It reads like animal logistics inside a federal procurement record. It may be perfectly reasonable — the weird part is seeing it as an official line item.",
+      "officialTitle": "Inflatable Shallow-Water Jet Boat, Motor, and Trailer",
+      "displayTitle": "Inflatable jet boat. Motor included. Democracy continues.",
+      "punchline": "Somewhere in procurement, someone typed “inflatable shallow-water jet boat” and everyone just kept moving.",
+      "displayCategory": "Marsh Vehicle"
+    },
+    {
+      "id": "8a6f3c12e20a4120940e4db880fce3aa",
+      "title": "Deer and Goose Processing",
+      "agency": "Agriculture",
+      "agencyFull": "AGRICULTURE, DEPARTMENT OF",
+      "office": "MRPBS MINNEAPOLIS MN",
+      "noticeType": "Solicitation",
+      "postedDate": "2024-11-08 13:30:17.145-05",
+      "responseDeadline": "2024-11-25T12:00:00-05:00",
+      "placeOfPerformance": "Worton, MD, USA",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/8a6f3c12e20a4120940e4db880fce3aa/view",
+      "category": "Animal Logistics",
+      "weirdnessScore": 158,
+      "absurdityBadges": [
+        "No Euphemisms",
+        "Park Ranger Energy",
+        "Officially Real"
+      ],
+      "matchedTerms": [
+        "goose",
+        "deer",
+        "meat"
+      ],
+      "weirdnessReasons": [
+        "animal logistics signal: goose, deer",
+        "tactical snack signal: meat"
+      ],
+      "plainEnglish": "It reads like animal logistics inside a federal procurement record. It may be perfectly reasonable — the weird part is seeing it as an official line item.",
+      "officialTitle": "Deer and Goose Processing",
+      "displayTitle": "The deer and geese situation has reached procurement",
+      "punchline": "The official title is just “DEER AND GOOSE PROCESSING,” which is either a contract notice or the world’s bleakest lunch menu.",
+      "displayCategory": "Deer/Goose Affairs"
+    },
+    {
+      "id": "71dc2dab496f4fed90cf2c9d78e215b8",
+      "title": "NATL FISH FOOD BPA CALL",
+      "agency": "Interior",
+      "agencyFull": "INTERIOR, DEPARTMENT OF THE",
+      "office": "FWS, OVER SAT G/S",
+      "noticeType": "Award Notice",
+      "postedDate": "2026-04-22 16:09:33.931-04",
+      "responseDeadline": "2026-05-07",
+      "placeOfPerformance": "Unknown",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/71dc2dab496f4fed90cf2c9d78e215b8/view",
+      "category": "Animal Logistics",
+      "weirdnessScore": 158,
+      "absurdityBadges": [
+        "Fish With Paperwork",
+        "Meal Plan",
+        "Officially Real"
+      ],
+      "matchedTerms": [
+        "fish",
+        "salmon",
+        "fish food"
+      ],
+      "weirdnessReasons": [
+        "animal logistics signal: fish, salmon",
+        "tactical snack signal: fish food"
+      ],
+      "plainEnglish": "It reads like animal logistics inside a federal procurement record. It may be perfectly reasonable — the weird part is seeing it as an official line item.",
+      "officialTitle": "NATL FISH FOOD BPA CALL",
+      "displayTitle": "The fish are on a federal meal plan",
+      "punchline": "Somewhere, a government fish is eating food with better documentation than your last DoorDash order.",
+      "displayCategory": "Federal Fish Dinner"
+    },
+    {
+      "id": "2a18813a26194d00ac6195887ef04cc9",
+      "title": "Superior National Forest Vault Toilet Pumping",
+      "agency": "Agriculture",
+      "agencyFull": "AGRICULTURE, DEPARTMENT OF",
+      "office": "USDA-FS, CSA EAST 6",
+      "noticeType": "Solicitation",
+      "postedDate": "2026-04-23 11:05:39.248-04",
+      "responseDeadline": "2026-05-05T15:00:00-04:00",
+      "placeOfPerformance": "Duluth, MN, USA",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/2a18813a26194d00ac6195887ef04cc9/view",
+      "category": "Oddly Specific Object",
+      "weirdnessScore": 132,
+      "absurdityBadges": [
+        "Nature Is Healing",
+        "Pump Truck Required",
+        "Officially Real"
+      ],
+      "matchedTerms": [
+        "toilet",
+        "toilets",
+        "vault",
+        "forest"
+      ],
+      "weirdnessReasons": [
+        "oddly specific object signal: toilet, toilets",
+        "government vibe signal: vault, forest"
+      ],
+      "plainEnglish": "It reads like oddly specific object inside a federal procurement record. It may be perfectly reasonable — the weird part is seeing it as an official line item.",
+      "officialTitle": "Superior National Forest Vault Toilet Pumping",
+      "displayTitle": "National forest seeks brave soul with pump truck",
+      "punchline": "The parks are beautiful because someone, somewhere, agreed to handle the worst paragraph in the contract.",
+      "displayCategory": "Toilet Infrastructure"
+    }
+  ],
+  "archiveDate": "2026-04-27",
+  "archivedAt": "2026-04-29T21:15:59.242796+00:00"
+}

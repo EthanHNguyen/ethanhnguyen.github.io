@@ -1,15 +1,15 @@
 # main links links
 main:
-  - title: "Projects"
+  - title: "Experiments"
     url: /portfolio/
 
   - title: "Writing"
     url: /year-archive/
 
+  - title: "Labs"
+    url: /experiments/
+
   - title: "Publications"
     url: /publications/
-
-  - title: "Oddments"
-    url: /experiments/
 
   # Talks and resume intentionally hidden from primary navigation while the public brand is focused on current builder artifacts.
